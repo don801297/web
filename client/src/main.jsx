@@ -9,7 +9,6 @@ import {
 
 
 import shop from './components/shop.jsx';
-import Pay from './Payment.jsx';
 import { useNavigate } from 'react-router-dom';
 
 
@@ -195,12 +194,6 @@ const router = createBrowserRouter([
     path: "/Nothing-2",
     element: <Nothing2 />,
   },
-  {
-    path: "/Payment-options",
-    element: <Pay />,
-  },
- 
-
   {
     path: "/Payment-section",
     element: <Card />,
