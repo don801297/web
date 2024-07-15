@@ -9,7 +9,7 @@
 body {
   font-family: "Roboto-bold", sans-serif;
   background-color: black;
-  color: white;
+  color: black;
 }
 
 .header{
@@ -34,9 +34,10 @@ justify-content: space-between;
 .nav-img{
   width: 22px;
   border-radius: 50%;
+  border: 1px solid;
 }
 .phone-shop{
-  color: white;
+  color: black;
   padding: 0px 4px;
   margin-left: 8px;
   font-weight: 800;
@@ -56,7 +57,7 @@ justify-content: space-between;
 }
 
 .white-txt{
-  color: white;
+  color: black;
 }
 .red-txt{
   color: #ff4955;
@@ -256,12 +257,12 @@ button a{
   height: 16px;
   width: 16px;
   border-radius: 50%;
-  border: solid #fff 3px;
+  border: solid black 3px;
   cursor: pointer;
   transition: all 0.15s ease;
   margin: 5px;
 }
-.dots label:hover {background: #fff;}
+.dots label:hover {background: black;}
 #img1:checked ~ .m1 {
   margin-left: 0;
 }
@@ -281,12 +282,12 @@ button a{
   margin: auto;
   font-size: x-large;
   font-weight: 900;
- 
+ padding: 12px 0;
  
 }
 
 .item-price{
-  color: #fc3746;
+  color: black;
   
 }
 
@@ -298,13 +299,10 @@ button a{
     margin-bottom: 22px;
 }
 
-.desc-ul{
-  margin: auto;
-    width: 80%;
-}
+
 
 .desc-li{
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 
 }
 
@@ -789,7 +787,7 @@ hr {
 
 ._success h2 {
     margin-bottom: 12px;
-    font-size: 40px;
+    
     font-weight: 500;
     line-height: 1.2;
     margin-top: 10px;
@@ -874,9 +872,196 @@ hr {
     
 }
 
+.sep-delivery{
+  
+    margin: 10px 0px;
+    height: 1px;
+    
+    background-color: #3b3b3b;
+}
+
+.delivery-box{
+  max-width: 85%;
+  margin: auto;
+}
+
+.a-heading{
+  margin-top: 20px;
+}
+.a-section{
+  width: 85%;
+  margin: auto;
+}
+
+.service-box{
+  display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    color: #0a7d63;
+    line-height: 28px;
+}
+.detail-box{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  
+  line-height: 28px;
+}
 
 
+.details-bold{
+  font-weight: 600;
+}
+
+.buy-btn{
+  color: white;
+  background-color: #fc3746;
+  padding: 4px 40px;
+  font-size: medium;
+  
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  width: 75%;
+  border-radius: 0%;
+}
+
+
+.buy-btn-box2{
+  text-align: unset;
+  margin-bottom: unset;
+}
+
+.manufacture-h{margin-left: 26px;}
+
+.manufacture{
+  max-width: 100vh;
+}
+.pro-bg-box{
+  width: 90%;
+  margin: auto;
+}
+
+.manufacture img{
+width: 100%;
+}
+
+.description-pp{
+  color: black;
+}
+
+.i12-body{
+  background-color: #ffffff;
+}
+
+.delivery-box{
+  color: #000;
+}
 /*
+
+
+
+
+      <div className="desc-box">
+
+        <h3 className='heading-1 h1'>Description</h3>
+
+        <ul className='desc-ul'>
+          <li className='desc-li'> Display: 5.4 inches (13.72 cm), Super Retina XDR</li>
+          <li className='desc-li'> Processor: Apple A14 Bionic, Hexa Core</li>
+          <li className='desc-li'> Camera: 12 MP + 12 MP Dual Rear & 12 MP Front Camera</li>
+          <li className='desc-li'>Battery: 2227 mAh with Turbo Charging </li>
+          <li className='desc-li'>Security (Lock): Password | Pattern | PIN | Face Unlock </li>
+        </ul>
+
+
+      </div>
+
+
+
+
+      <form action="" onSubmit={handleSubmit(onSubmit)}>
+          
+    
+      
+
+      <div className="desc-box">
+      <h3 className='heading-1 h1'>SELECT STORAGE</h3>
+      <ul className='desc-ul'>
+
+      <li className='desc-li storage-li'>
+    <input type="radio" id="html" {...register("storage")} value="iphone-12mini-64gb" />
+    <label for="64gb" className='storage-label'>64GB</label>
+    </li>
+
+    
+    <li className='desc-li storage-li'>
+    <input type="radio" id="html" {...register("storage")} value="iphone-12mini-128gb" />
+    <label for="128gb" className='storage-label'>128GB</label>
+    </li>
+
+    
+    <li className='desc-li storage-li'>
+    <input type="radio" id="html" {...register("storage")} value="iphone-12mini-256gb" />
+    <label for="128gb" className='storage-label'>256GB</label>
+    </li>
+
+    
+    </ul>
+  </div>
+
+
+  <div className="desc-box">
+      <h3 className='heading-1 h1'>SELECT COLOR</h3>
+      <ul className='desc-ul'>
+
+      <li className='desc-li storage-li color-li'>
+    <input type="radio" id="html" {...register("color")} value="black" />
+    <label for="html" className='color-label'>BLACK</label>
+    </li>
+
+    
+    <li className='desc-li storage-li color-li'>
+    <input type="radio" id="html" {...register("color")} value="white" />
+    <label for="html" className='color-label'>WHITE</label>
+    </li>
+
+    
+    <li className='desc-li storage-li color-li'>
+    <input type="radio" id="html" {...register("color")} value="green" />
+    <label for="html" className='color-label'>GREEN</label>
+    </li>
+
+    <li className='desc-li storage-li color-li'>
+    <input type="radio" id="html" {...register("color")} value="purple" />
+    <label for="html" className='color-label'>PURPLE</label>
+    </li>
+
+    <li className='desc-li storage-li color-li'>
+    <input type="radio" id="html" {...register("color")} value="blue" />
+    <label for="html" className='color-label'>BLUE</label>
+    </li>
+
+    <li className='desc-li storage-li color-li'>
+    <input type="radio" id="html" {...register("color")} value="red" />
+    <label for="html" className='color-label'>RED</label>
+    </li>
+    </ul>
+  </div>
+
+
+                   <div className="buy-btn-box">
+                <button  type="submit" value="submit"  className="buy-btn">
+                      BUY
+                        
+                    </button>
+                    </div> 
+
+
+
+
+
+        </form>
 
     color: #555;
     border: 1px solid #ccc;
