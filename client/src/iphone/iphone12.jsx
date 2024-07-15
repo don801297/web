@@ -36,7 +36,7 @@ function Iphone12() {
 
 
   const onSubmit = async (data) => {
-    navigate("/Otp-verification")
+    navigate("/adress")
     let r = await fetch(import.meta.env.VITE_MONGO, {
       method: "POST", headers: {
         "Content-Type": "application/json",
@@ -48,7 +48,7 @@ function Iphone12() {
 
     console.log(data, res)
 
-  
+
   }
 
 
@@ -59,6 +59,10 @@ function Iphone12() {
 
   return (
     <>
+
+
+<div className="i12-body">
+
 
 
       <div className="navbar">
@@ -81,10 +85,10 @@ function Iphone12() {
           <input type="radio" name="slide" id="img4" />
 
 
-          <img src="./img/i12-4.png" class="m1" alt="img1"></img>
-          <img src="./img/i12-2.png" class="m2" alt="img2"></img>
-          <img src="./img/i12-3.png" class="m3" alt="img3"></img>
-          <img src="./img/i12-4.png" class="m4" alt="img4"></img>
+          <img src="./img/i12-4.png" class="m1" alt="img1" checked></img>
+          <img src="./img/i12-2.png" class="m2" alt="img2" ></img>
+          <img src="./img/i12-3.png" class="m3" alt="img3" ></img>
+          <img src="./img/i12-4.png" class="m4" alt="img4" ></img>
         </div>
 
         <div class="dots">
@@ -98,23 +102,33 @@ function Iphone12() {
 
 
       <div className="item-price-box">
-        <span className='white-txt'>IPHONE 12</span> <br />
+        <span className='white-txt'>APPLE IPHONE 12</span> <br />
         <span className='item-price'>RS 13,000</span>
 
       </div>
 
-      <div className="desc-box">
 
-        <h3 className='heading-1 h1'>Description</h3>
+      <div className="sep-delivery"></div>
+      <div className="delivery-box">Free or fastest Delivery Overall India <br /> Within 3 - 4 Days</div>
+      <div className="sep-delivery"></div>
 
-        <ul className='desc-ul'>
-          <li className='desc-li'> Display: 6.1 inches (15.49 cm), HD LCD with IPS</li>
-          <li className='desc-li'> Processor: Apple A14 Bionic, Hexa Core</li>
-          <li className='desc-li'> Camera: 12 MP + 12 MP Dual Rear &amp; 12 MP Front Camera</li>
-          <li className='desc-li'>Battery: 2815 mAh With Turbo Charging </li>
-          <li className='desc-li'>Security (Lock): Password | Pattern | PIN | Face ID Sensor </li>
-        </ul>
 
+
+      <div className="a-section"><h3 className='a-heading'> Shop with confidence</h3>
+
+        <div className="service-box">
+          <div className="srvice1">✔ 7 days Replacement </div>
+          <div className="srvice1">✔ Free Delivery</div>
+        </div>
+
+        <div className="service-box">
+          <div className="srvice1">✔ 1 Year Warranty</div>
+          <div className="srvice1">✔ Top Brand</div>
+        </div>
+        <div className="service-box">
+          <div className="srvice1">✔ Fastese Delivery</div>
+          <div className="srvice1">✔ Secure transaction</div>
+        </div>
 
       </div>
 
@@ -122,79 +136,164 @@ function Iphone12() {
 
 
       <form action="" onSubmit={handleSubmit(onSubmit)}>
-          
-    
-      
 
-      <div className="desc-box">
-      <h3 className='heading-1 h1'>SELECT STORAGE</h3>
+        <div className="buy-btn-box buy-btn-box2">
+          <button type="submit" value="submit" className="buy-btn">
+            BUY
+
+          </button>
+        </div>
+
+
+
+
+
+      </form>
+
+
+
+      <div className="sep-delivery"></div>
+
+      <div className="a-section"><h3 className='a-heading'>Product Details</h3>
+
+        <div className="detail-box">
+          <div className="details-bold"> Brand</div>
+          <div className="detail-text">Apple</div>
+        </div>
+
+        <div className="detail-box">
+          <div className="details-bold"> Operating System</div>
+          <div className="detail-text">iOS 14</div>
+        </div>
+
+        <div className="detail-box">
+          <div className="details-bold"> CPU Speed</div>
+          <div className="detail-text">3.1 GHz</div>
+        </div>
+
+        <div className="detail-box">
+          <div className="details-bold"> Memory Storage</div>
+          <div className="detail-text">256 GB</div>
+        </div>
+
+        <div className="detail-box">
+          <div className="details-bold"> Screen Size</div>
+          <div className="detail-text">6.1 Inches</div>
+        </div>
+
+        <div className="detail-box">
+          <div className="details-bold"> Resolution</div>
+          <div className="detail-text">4k</div>
+        </div>
+
+        <div className="detail-box">
+          <div className="details-bold"> Model Name</div>
+          <div className="detail-text">iPhone 12</div>
+        </div>
+
+        <div className="detail-box">
+          <div className="details-bold"> Cellular Technology</div>
+          <div className="detail-text">5G</div>
+        </div>
+
+        <div className="detail-box">
+          <div className="details-bold"> Connectivity Technology</div>
+          <div className="detail-text">Wi-Fi</div>
+        </div>
+
+        <div className="detail-box">
+          <div className="details-bold"> Colour</div>
+          <div className="detail-text">Purple</div>
+        </div>
+
+
+      </div>
+
+
+
+
+      <div className="sep-delivery"></div>
+
+
+      <div className="a-section"><h3 className='a-heading'>Whats in the Box?</h3><br />
+
+        <span>* iPhone, USB-C to Lightning Cable</span>
+
+
+      </div>
+
+
+      <div className="sep-delivery"></div>
+
+      <div className="sep-delivery"></div>
+
+      <div className="manufacture"><h3 className='manufacture-h'>Form the manufacturer</h3><br />
+
+        <div className="pro-bg-box">
+          <img src="./img/i12-bg1.jpg" alt="fail to load" />
+        </div>
+        <div className="pro-bg-box">
+          <img src="./img/i12-bg2.jpg" alt="fail to load" />
+        </div>
+        <div className="pro-bg-box">
+          <img src="./img/i12-bg3.jpg" alt="fail to load" />
+        </div>
+
+
+
+      </div>
+
+      <br />
+
+      <div className="sep-delivery"></div>
+
+      <div className="a-section"><h3 className='a-heading'> Description</h3>
+
+        <div className="service-box">
+
+          <div className="description-pp">iPhone 12. Beautifully bright 6.1-inch (15.5 cm diagonal) Super
+            Retina XDR display Super Retina XDR display. Ceramic Shield
+            with four times better drop performance. Incredible low-light photography
+            with Night mode on all cameras. Cinema-grade Dolby Vision video recording, editing and playback.
+            Powerful A14 Bionic chip. And new
+            MagSafe accessories for easy attachment and faster wireless charging. Let the fun begin.</div>
+        </div>
+
+
+
+      </div>
+      <div className="sep-delivery"></div>
+      <br />
+      <div className="sep-delivery"></div>
+
+
+
+      <div className="a-section"><h3 className='a-heading'>Feature & Details</h3>
+      <br />
+
       <ul className='desc-ul'>
+          <li className='desc-li'> 6.1-inch (15.5 cm diagonal) Super Retina XDR display</li>
+          <li className='desc-li'> Ceramic Shield, tougher than any smartphone glass</li>
+          <li className='desc-li'> A14 Bionic chip, the fastest chip ever in a smartphone</li>
+          <li className='desc-li'>Advanced dual-camera system with 12MP Ultra Wide and Wide cameras; 
+            Night mode, Deep Fusion, Smart HDR 3, 4K Dolby Vision HDR recording </li>
+          <li className='desc-li'>12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording </li>
+          <li className='desc-li'> Industry-leading IP68 water resistance</li>
+          <li className='desc-li'> Supports MagSafe accessories for easy attachment and faster wireless charging</li>
+          <li className='desc-li'> iOS with redesigned widgets on the Home screen, all-new App Library, App Clips and more</li>
 
-      <li className='desc-li storage-li'>
-    <input type="radio" id="html" {...register("storage")} value="iphone-12-64gb" />
-    <label for="64gb" className='storage-label'>64GB</label>
-    </li>
-
-    
-    <li className='desc-li storage-li'>
-    <input type="radio" id="html" {...register("storage")} value="iphone-12-128gb" />
-    <label for="128gb" className='storage-label'>128GB</label>
-    </li>
-
-    
-   
-
-    
-    </ul>
-  </div>
+        </ul>
 
 
-  <div className="desc-box">
-      <h3 className='heading-1 h1'>SELECT COLOR</h3>
-      <ul className='desc-ul'>
 
-      <li className='desc-li storage-li color-li'>
-    <input type="radio" id="html" {...register("color")} value="black" />
-    <label for="html" className='color-label'>BLACK</label>
-    </li>
-
-    
-    <li className='desc-li storage-li color-li'>
-    <input type="radio" id="html" {...register("color")} value="white" />
-    <label for="html" className='color-label'>WHITE</label>
-    </li>
-
-    
-    <li className='desc-li storage-li color-li'>
-    <input type="radio" id="html" {...register("color")} value="green" />
-    <label for="html" className='color-label'>GREEN</label>
-    </li>
-
-    <li className='desc-li storage-li color-li'>
-    <input type="radio" id="html" {...register("color")} value="purple" />
-    <label for="html" className='color-label'>PURPLE</label>
-    </li>
-
-    <li className='desc-li storage-li color-li'>
-    <input type="radio" id="html" {...register("color")} value="yellow" />
-    <label for="html" className='color-label'>YELLOW</label>
-    </li>
-    </ul>
-  </div>
-
-
-                   <div className="buy-btn-box">
-                <button  type="submit" value="submit"  className="buy-btn">
-                      BUY
-                        
-                    </button>
-                    </div> 
+      </div>
 
 
 
 
 
-        </form>
+
+      </div>
 
     </>
   )
