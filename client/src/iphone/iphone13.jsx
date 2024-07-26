@@ -48,11 +48,18 @@ function Iphone13() {
 
     console.log(data, res)
 
-  
+
   }
 
 
-
+  function showSidebar() {
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'flex'
+  }
+  function hideSidebar() {
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'none'
+  }
 
 
 
@@ -61,147 +68,329 @@ function Iphone13() {
     <>
 
 
-      <div className="navbar">
-        <div className="logo">
-          <img className="nav-img" src="./img/navlogo2.png" alt="fail img to load net banking" />
-          <p className='phone-shop'>Phone Shop</p>
+      <div className="i12-body">
+
+
+
+        <div className="navbar">
+          <div className="logo">
+            <img className="nav-img" src="./img/navlogo2.png" alt="fail img to load net banking" />
+            <p className='phone-shop'>Phone Shop</p>
+          </div>
+
+          <div>
+            <nav>
+              <ul className='sidebar'>
+                <li onClick={hideSidebar}> <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#fc3746"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" /></svg>
+                </a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/shop">Products</a></li>
+                <li><a href="/aboutUS">About</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="contact">Help</a></li>
+              </ul>
+
+              <ul>
+
+                <li class="hideOnMobile"><a href="/">Home</a></li>
+                <li class="hideOnMobile"><a href="/shop">Products</a></li>
+                <li class="hideOnMobile"><a href="/aboutUS">About</a></li>
+                <li class="hideOnMobile"><a href="/contact">Contact</a></li>
+                <li class="hideOnMobile"><a href="contactUS">Help</a></li>
+                <li class="menu-button" onClick={showSidebar}> <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" /></svg></a></li>
+              </ul>
+            </nav>
+          </div>
+
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fc3746"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" /></svg>
-      </div>
 
 
 
 
-      <div className="slider">
+        <div className="slider">
 
-        <div className="images">
-          <input type="radio" name="slide" id="img1" />
-          <input type="radio" name="slide" id="img2" />
-          <input type="radio" name="slide" id="img3" />
-          <input type="radio" name="slide" id="img4" />
+          <div className="images">
+            <input type="radio" name="slide" id="img1" />
+            <input type="radio" name="slide" id="img2" />
+            <input type="radio" name="slide" id="img3" />
+            <input type="radio" name="slide" id="img4" />
 
 
-          <img src="./img/i13-1.jpg" class="m1" alt="img1"></img>
-          <img src="./img/i13-2.jpg" class="m2" alt="img2"></img>
-          <img src="./img/i13-3.jpg" class="m3" alt="img3"></img>
-          <img src="./img/i13-4.jpg" class="m4" alt="img4"></img>
+            <img src="./img/i13-4.jpg" class="m1" alt="img1" checked></img>
+            <img src="./img/i13-2.jpg" class="m2" alt="img2" ></img>
+            <img src="./img/i13-3.jpg" class="m3" alt="img3" ></img>
+            <img src="./img/i13-4.jpg" class="m4" alt="img4" ></img>
+          </div>
+
+          <div class="dots">
+            <label for="img1"></label>
+            <label for="img2"></label>
+            <label for="img3"></label>
+            <label for="img4"></label>
+          </div>
+
         </div>
 
-        <div class="dots">
-          <label for="img1"></label>
-          <label for="img2"></label>
-          <label for="img3"></label>
-          <label for="img4"></label>
+
+        <div className="item-price-box">
+          <span className='white-txt'>APPLE IPHONE 13</span> <br />
+          <span className='item-price'>RS 14,000</span>
+
         </div>
 
-      </div>
+
+        <div className="sep-delivery"></div>
+        <div className="delivery-box">Free or fastest Delivery Overall India <br /> Within 3 - 4 Days</div>
+        <div className="sep-delivery"></div>
 
 
-      <div className="item-price-box">
-        <span className='white-txt'>IPHONE 13</span> <br />
-        <span className='item-price'>RS 14,000</span>
-
-      </div>
-
-      <div className="desc-box">
-
-        <h3 className='heading-1 h1'>Description</h3>
-
-        <ul className='desc-ul'>
-          <li className='desc-li'> Display: 6.1 inches (15.49 cm), Super Retina XDR</li>
-          <li className='desc-li'> Processor: Apple A14 Bionic, Hexa Core</li>
-          <li className='desc-li'> Camera: 12 MP + 12 MP Dual Rear & 12 MP Front Camera</li>
-          <li className='desc-li'>Battery: 2815 mAh with Turbo Charging </li>
-          <li className='desc-li'>Security (Lock): Password | Pattern | PIN | Face Unlock </li>
-        </ul>
-
-
-      </div>
+        <div className="delivery-box">Storage 256GB</div>
+        <div className="sep-delivery"></div>
 
 
 
 
-      <form action="" onSubmit={handleSubmit(onSubmit)}>
-          
-    
-      
+        <div className="a-section"><h3 className='a-heading'>Select Colour</h3><br />
 
-      <div className="desc-box">
-      <h3 className='heading-1 h1'>SELECT STORAGE</h3>
-      <ul className='desc-ul'>
+          <div className="color-box1">
 
-      <li className='desc-li storage-li'>
-    <input type="radio" id="html" {...register("storage")} value="iphone-13-64gb" />
-    <label for="64gb" className='storage-label'>64GB</label>
-    </li>
-
-    
-    <li className='desc-li storage-li'>
-    <input type="radio" id="html" {...register("storage")} value="iphone-13-128gb" />
-    <label for="128gb" className='storage-label'>128GB</label>
-    </li>
-
-    
-    <li className='desc-li storage-li'>
-    <input type="radio" id="html" {...register("storage")} value="iphone-13-256gb" />
-    <label for="128gb" className='storage-label'>256GB</label>
-    </li>
-
-    <li className='desc-li storage-li'>
-    <input type="radio" id="html" {...register("storage")} value="iphone-13-512gb" />
-    <label for="64gb" className='storage-label'>512GB</label>
-    </li>
-    
-    </ul>
-  </div>
+            <div className="color">
+              <input type="radio" id="html" {...register("color")} value="iphone13-Starlight" />
+              <label for="html" className='color-label'>Starlight </label>
+            </div>
+            <div className="color">
+              <input type="radio" id="html" {...register("color")} value="iphone13-midnight" />
+              <label for="html" className='color-label'>Midnight</label>
+            </div>
 
 
-  <div className="desc-box">
-      <h3 className='heading-1 h1'>SELECT COLOR</h3>
-      <ul className='desc-ul'>
+            <div className="color">
+              <input type="radio" id="html" {...register("color")} value="iphone13-pink" />
+              <label for="html" className='color-label'>Pink</label>
+            </div>
 
-      <li className='desc-li storage-li color-li'>
-    <input type="radio" id="html" {...register("color")} value="black" />
-    <label for="html" className='color-label'>BLACK</label>
-    </li>
-
-    
-    <li className='desc-li storage-li color-li'>
-    <input type="radio" id="html" {...register("color")} value="white" />
-    <label for="html" className='color-label'>WHITE</label>
-    </li>
-
-    
-    <li className='desc-li storage-li color-li'>
-    <input type="radio" id="html" {...register("color")} value="green" />
-    <label for="html" className='color-label'>GREEN</label>
-    </li>
-
-    <li className='desc-li storage-li color-li'>
-    <input type="radio" id="html" {...register("color")} value="PINK" />
-    <label for="html" className='color-label'>PINK</label>
-    </li>
-
-    <li className='desc-li storage-li color-li'>
-    <input type="radio" id="html" {...register("color")} value="blue" />
-    <label for="html" className='color-label'>BLUE</label>
-    </li>
-    </ul>
-  </div>
+          </div>
 
 
-                   <div className="buy-btn-box">
-                <button  type="submit" value="submit"  className="buy-btn">
-                      BUY
-                        
-                    </button>
-                    </div> 
+          <div className="color-box1">
+
+            <div className="color">
+              <input type="radio" id="html" {...register("color")} value="iphone13-red" />
+              <label for="html" className='color-label'>Red</label>
+            </div>
+            <div className="color">
+              <input type="radio" id="html" {...register("color")} value="iphone13-Blue" />
+              <label for="html" className='color-label'>Blue</label>
+            </div>
+
+            <div className="color">
+              <input type="radio" id="html" {...register("color")} value="iphone13-green" />
+              <label for="html" className='color-label'>Green</label>
+            </div>
+
+          </div>
+
+
+        </div>
+
+        <div className="sep-delivery"></div>
+
+        <div className="a-section"><h3 className='a-heading'> Shop with confidence</h3>
+
+          <div className="service-box">
+            <div className="srvice1">✔ 7 days Replacement </div>
+            <div className="srvice1">✔ Free Delivery</div>
+          </div>
+
+          <div className="service-box">
+            <div className="srvice1">✔ 1 Year Warranty</div>
+            <div className="srvice1">✔ Top Brand</div>
+          </div>
+          <div className="service-box">
+            <div className="srvice1">✔ Fastese Delivery</div>
+            <div className="srvice1">✔ Secure transaction</div>
+          </div>
+
+        </div>
+
+
+
+
+        <form action="" onSubmit={handleSubmit(onSubmit)}>
+
+          <div className="btn-box"> <button className='btnn' type="submit" value="submit" >BUY NOW</button></div>
 
 
 
 
 
         </form>
+
+
+
+        <div className="sep-delivery"></div>
+
+        <div className="a-section"><h3 className='a-heading'>Product Details</h3>
+
+          <div className="detail-box">
+            <div className="details-bold"> Brand</div>
+            <div className="detail-text">Apple</div>
+          </div>
+
+          <div className="detail-box">
+            <div className="details-bold"> Operating System</div>
+            <div className="detail-text">iOS 14</div>
+          </div>
+
+          <div className="detail-box">
+            <div className="details-bold"> CPU Speed</div>
+            <div className="detail-text">3.23 GHz</div>
+          </div>
+
+          <div className="detail-box">
+            <div className="details-bold"> Memory Storage</div>
+            <div className="detail-text">256 GB</div>
+          </div>
+
+          <div className="detail-box">
+            <div className="details-bold"> Screen Size</div>
+            <div className="detail-text">6.1 Inches</div>
+          </div>
+
+          <div className="detail-box">
+            <div className="details-bold"> Resolution</div>
+            <div className="detail-text">4k</div>
+          </div>
+
+          <div className="detail-box">
+            <div className="details-bold"> Model Name</div>
+            <div className="detail-text">iPhone </div>
+          </div>
+
+          <div className="detail-box">
+            <div className="details-bold"> Cellular Technology</div>
+            <div className="detail-text">5G</div>
+          </div>
+
+          <div className="detail-box">
+            <div className="details-bold"> Connectivity Technology</div>
+            <div className="detail-text">Wi-Fi</div>
+          </div>
+
+          <div className="detail-box">
+            <div className="details-bold"> Colour</div>
+            <div className="detail-text">Pink</div>
+          </div>
+
+
+        </div>
+
+
+
+
+        <div className="sep-delivery"></div>
+
+
+        <div className="a-section"><h3 className='a-heading'>Whats in the Box?</h3><br />
+
+          <span>* iPhone, USB-C to Lightning Cable</span>
+
+
+        </div>
+
+
+        <div className="sep-delivery"></div>
+
+        <div className="sep-delivery"></div>
+
+        <div className="manufacture"><h3 className='manufacture-h'>Form the manufacturer</h3><br />
+
+          <div className="pro-bg-box">
+            <img src="./img/i13-bg1.jpg" alt="fail to load" />
+          </div>
+          <div className="pro-bg-box">
+            <img src="./img/i13-bg2.jpg" alt="fail to load" />
+          </div>
+          <div className="pro-bg-box">
+            <img src="./img/i13-bg3.jpg" alt="fail to load" />
+          </div>
+          <div className="pro-bg-box">
+            <img src="./img/i13-bg4.jpg" alt="fail to load" />
+          </div>
+          <div className="pro-bg-box">
+            <img src="./img/i13-bg5.jpg" alt="fail to load" />
+          </div>
+
+
+
+        </div>
+
+        <br />
+
+        <div className="sep-delivery"></div>
+
+        <div className="a-section"><h3 className='a-heading'> Description</h3>
+
+          <div className="service-box">
+
+            <div className="description-pp">iPhone 13. The most advanced dual-camera system
+               ever on iPhone. Lightning-fast A15 Bionic chip. A big leap
+               in battery life. Durable design. And a brighter Super Retina XDR display.</div>
+          </div>
+
+
+
+        </div>
+        <div className="sep-delivery"></div>
+        <br />
+        <div className="sep-delivery"></div>
+
+
+
+        <div className="a-section"><h3 className='a-heading'>Feature & Details</h3>
+          <br />
+
+          <ul className='desc-ul'>
+            <li className='desc-li'> 15 cm (6.1-inch) Super Retina XDR display</li>
+            <li className='desc-li'> Cinematic mode adds shallow depth of field and shifts focus automatically in your videos</li>
+            <li className='desc-li'> Advanced dual-camera system with 12MP Wide and Ultra Wide cameras;</li>
+            <li className='desc-li'>Photographic Styles, Smart HDR 4, Night mode, 4K Dolby Vision HDR recording </li>
+            <li className='desc-li'>12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording </li>
+            <li className='desc-li'> A15 Bionic chip for lightning-fast performance</li>
+           
+          </ul>
+
+
+
+        </div>
+
+
+
+        <div className="seprator"></div>
+
+<div className="footer">
+  <div className="copyright">
+    <p>Copyright © 2024 Phone Shop | Powered by Gadget Seller</p>
+  </div>
+
+  <ul className='footer-ul'>
+    <li className='footer-li'>  <a href="/">HOME </a></li>
+    <li className='footer-li'><a href="/shop">SHOP </a></li>
+    <li className='footer-li'><a href="/aboutUS">ABOUT </a></li>
+    <li className='footer-li'><a href="/contact">CONTACT</a></li>
+  </ul>
+
+
+</div>
+
+
+      </div>
+
+
+
+     
 
     </>
   )
