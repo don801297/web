@@ -55,6 +55,15 @@ import Iphone15promax from './iphone/iphone15promax.jsx';
 import Paymentdone from './components/paymentdone.jsx';
 import Paymentfail from './components/paymentfail.jsx';
 import Upipayment from './components/upi-paymentdone.jsx';
+import Upipay from './components/upipayment.jsx';
+import Iphone from './iphone/iphone.jsx';
+import Samsung from './samsung/samsung.jsx';
+import OnePlus from './oneplus/oneplus.jsx';
+import Earphone1 from './other/earphone1.jsx';
+import Miwatch1 from './other/watch1.jsx';
+import Headphone1 from './other/headphone1.jsx';
+import Earphone2 from './other/earphone2.jsx';
+import Iphone12mini from './iphone/iphone12mini.jsx';
 
 
 const router = createBrowserRouter([
@@ -68,6 +77,10 @@ const router = createBrowserRouter([
     element: <Shop />,
   },
   {
+    path: "/Iphone",
+    element: <Iphone />,
+  },
+  {
     path: "/Iphone11",
     element: <Iphone11 />,
   },
@@ -77,7 +90,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/Iphone12-mini",
-    element: <Iphone12MINI />,
+    element: <Iphone12mini />,
   },
   {
     path: "/Iphone13",
@@ -156,6 +169,14 @@ const router = createBrowserRouter([
     element: <Upipayment />,
   },
   {
+    path: "/Upi-Payment-Option",
+    element: <Upipay />,
+  },
+  {
+    path: "/Samsung",
+    element: <Samsung />,
+  },
+  {
     path: "/Samsung-Galaxy-S23-ULTRA",
     element: <S23ultra />,
   },
@@ -170,6 +191,10 @@ const router = createBrowserRouter([
   {
     path: "/Samsung-Galaxy-Zfold",
     element: <Zfold />,
+  },
+  {
+    path: "/OnePlus",
+    element: <OnePlus />,
   },
   {
     path: "/OnePlus-10T",
@@ -207,7 +232,22 @@ const router = createBrowserRouter([
     path: "Otp-verification",
     element: <Otp />,
   },
-
+  {
+    path: "earphone",
+    element: <Earphone1 />,
+  },
+  {
+    path: "Mi-Smart-Watch",
+    element: <Miwatch1 />,
+  },
+  {
+    path: "Zebronic-headphone",
+    element: <Headphone1 />,
+  },
+  {
+    path: "Boult-Wired-Earphone",
+    element: <Earphone2 />,
+  },
  
 ]);
 

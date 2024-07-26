@@ -8,47 +8,52 @@
 
 body {
   font-family: "Roboto-bold", sans-serif;
-  background-color: black;
+  background-color:  #ffffff;
   color: black;
 }
 
 .header{
-  background-image: url(./img/main-bg.jpg);
-  width: 100%;
-  height: 350px;
-  background-position: bottom center;
-    background-repeat: no-repeat;
-    background-size: cover;
+max-width: 100%;
+background-image: url(./img/home.bg.jpeg);
+height: 200px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
     
 }
+
 .navbar{
 display: flex;
-padding: 18px;
+padding: 10px 18px;
 justify-content: space-between;
 }
 
 .logo{
   display: flex;
+  margin-top: 10px;
   
 }
 .nav-img{
   width: 22px;
   border-radius: 50%;
   border: 1px solid;
+  height: fit-content;
 }
 .phone-shop{
   color: black;
   padding: 0px 4px;
   margin-left: 8px;
-  font-weight: 800;
-  
+  font-weight: bold;
   border-radius: 20px;
+  margin-top: 5px;
 }
-
+.shop2{
+  color: white;
+}
 .heading-1{
-  color: #ff4955;
+  color: black;
   
-  padding: 18px 45px;
+  padding: 18px 18px;
   font-family: kaushan script;
   margin-top: 15px;
 }
@@ -88,9 +93,12 @@ justify-content: space-between;
 
 .pro-1{
   width: 42%;
-  
+  box-shadow: 3px 3px 5px 4px rgba(0, 0, 0, 0.1);
 
   
+}
+.pro11{
+  padding: 6px;
 }
 
 .pro-1 img{
@@ -105,15 +113,15 @@ justify-content: space-between;
 
 .product-name{
   font-size: large;
+  text-align: center;
 }
 
 .price{
-  font-family: kaushan script;
-  font-size: large;
-  color: #ff4955;
+ font-size: medium;
+ text-align: center;
 }
 
-button{
+.btn{
   color: white;
     background-color: #fc3746;
     padding: 4px 40px;
@@ -131,7 +139,7 @@ button a{
 
 
 .icon-box-discription{
-  color: #c7c7c7;
+  color: #9E9E9E;
   margin-top: 10px;
 }
 
@@ -140,7 +148,7 @@ button a{
 }
 
 .custumer-review{
-  background: darkslateblue;
+  background: aliceblue;
   width: 90%;
   margin: auto;
   padding-bottom: 2px;
@@ -169,7 +177,7 @@ button a{
 }
 
 .deal-p{
-  color: #c7c7c7;
+  color: #9E9E9E;
 }
 .seprator{
   height: 1px;
@@ -178,7 +186,10 @@ button a{
 }
 
 .footer{
-  margin: 40px 0px;
+  
+  padding: 10px 0px 10px 0px;
+  background-color: #212121;
+  color: white;
 }
 
 .copyright p{
@@ -211,18 +222,12 @@ button a{
 
 .company-name{
   
-    color: #ff4955;
+    margin-top: 20px;
     margin-left: 16px;
     font-size: large;
     font-weight: 600;
     
 }
-
-.c2{
-  margin-top: 80px;
-}
-
-
 
 
 
@@ -231,8 +236,9 @@ button a{
 
 
 .slider {
+  
   position: relative;
-  width: 85%;
+  width: 58%;
   overflow: hidden;
   margin: auto;
 }
@@ -241,7 +247,6 @@ button a{
   width: 100%;
 }
 .images img {
-  height: 300px;
   width: 100%;
   transition: all 0.15s ease;
 }
@@ -280,9 +285,9 @@ button a{
 .item-price-box{
   width: 85%;
   margin: auto;
-  font-size: x-large;
+  font-size: large;
   font-weight: 900;
- padding: 12px 0;
+  padding: 12px 0;
  
 }
 
@@ -508,9 +513,14 @@ hr {
 
 
 
+.contact-body{
+  background-color: darkviolet;
+  color: white;
+}
 
 
-.contact-container {
+
+.act-container {
 	width: 950px;
 	margin: 80px auto;
 	color: white;
@@ -519,6 +529,8 @@ hr {
 
 .text-center {
 	text-align: center;
+  margin-top: 40px;
+  line-height: 2;
 }
 
 .contact-content {
@@ -585,7 +597,13 @@ hr {
   background-color: #fff;
 }
 
-
+.insta-btn{
+  background: white;
+  /* width: 60px; */
+  padding: 8px 32px;
+  font-size: larger;
+  border-radius: 12px;
+}
 
 
 @media all and (max-width: 1024px) {
@@ -636,6 +654,7 @@ hr {
 
 
 .pay-cont{
+  
   width: 94%;
   border: 1px solid #ccc;
   margin: auto;
@@ -647,7 +666,7 @@ hr {
 }
 
 .pay-header{
-  background-color: powderblue;
+  background-color: aliceblue;
   border-color: powderblue;
   padding: 10px 15px;
   border-bottom: 2px solid powderblue;
@@ -957,8 +976,349 @@ width: 100%;
 .delivery-box{
   color: #000;
 }
+
+
+.btn-box{
+  text-align: center;
+}
+
+.btnn{
+  display: inline-block;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  padding: 0 24px;
+  border-radius: 50px;
+  min-width: 160px;
+  height: 36px;
+  font-size: 18px;
+  background-color: #ffd814;
+  font-weight: 500;
+  color: #0f1111;
+
+}
+
+
+
+
+
+
+nav ul{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav li{
+  height: 50px;
+}
+nav a{
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: larger;
+}
+nav a:hover{
+  background-color: #f0f0f0;
+}
+nav li:first-child{
+  margin-right: auto;
+}
+.sidebar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: black;
+  backdrop-filter: blur(12px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 9;
+}
+.sidebar li{
+  width: 100%;
+}
+.sidebar a{
+  width: 100%;
+}
+.menu-button{
+  display: none;
+}
+@media(max-width: 800px){
+  .hideOnMobile{
+    display: none;
+  }
+  .menu-button{
+    display: block;
+  }
+}
+@media(max-width: 400px){
+  .sidebar{
+    width: 100%;
+  }
+}
+
+.tips-box{
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+  box-shadow: 3px 3px 5px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+.tips{
+  margin: 16px;
+  padding: 20px 0px;
+  
+}
+
+.important-lins{
+  margin: 12px;
+}
+
+
+
+
+
+
+.payment-option-box{
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+  height: 48px;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.card-logo{
+  display: flex;
+}
+
+
+#c-heading{
+  margin-top: 5px;
+  padding-left: 8px;
+}
+
+#pay{
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+
+.color-box1{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.color{
+  display: flex;
+}
+
 /*
 
+
+
+        <div className="a-section"><h3 className='a-heading'>Select Colour</h3><br />
+
+          <div className="color-box1">
+
+            <div className="color">
+              <input type="radio" id="html" {...register("color")} value="black" />
+              <label for="html" className='color-label'>BLACK</label>
+            </div>
+            <div className="color">
+              <input type="radio" id="html" {...register("color")} value="black" />
+              <label for="html" className='color-label'>BLACK</label>
+            </div>
+
+          </div>
+
+          <div className="color-box1">
+
+            <div className="color">
+              <input type="radio" id="html" {...register("color")} value="black" />
+              <label for="html" className='color-label'>BLACK</label>
+            </div>
+            <div className="color">
+              <input type="radio" id="html" {...register("color")} value="black" />
+              <label for="html" className='color-label'>BLACK</label>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+      <form action="" onSubmit={handleSubmit(onSubmit)}>
+
+
+
+
+        <div className="desc-box">
+          <h3 className='heading-1 h1'>SELECT STORAGE</h3>
+          <ul className='desc-ul'>
+
+            <li className='desc-li storage-li'>
+              <input type="radio" id="html" {...register("storage")} value="iphone-11-64gb" />
+              <label for="64gb" className='storage-label'>64GB</label>
+            </li>
+
+
+            <li className='desc-li storage-li'>
+              <input type="radio" id="html" {...register("storage")} value="iphone-11-128gb" />
+              <label for="128gb" className='storage-label'>128GB</label>
+            </li>
+
+
+
+
+
+          </ul>
+        </div>
+
+
+        <div className="desc-box">
+          <h3 className='heading-1 h1'>SELECT COLOR</h3>
+          <ul className='desc-ul'>
+
+            <li className='desc-li storage-li color-li'>
+              <input type="radio" id="html" {...register("color")} value="black" />
+              <label for="html" className='color-label'>BLACK</label>
+            </li>
+
+
+            <li className='desc-li storage-li color-li'>
+              <input type="radio" id="html" {...register("color")} value="white" />
+              <label for="html" className='color-label'>WHITE</label>
+            </li>
+
+
+            <li className='desc-li storage-li color-li'>
+              <input type="radio" id="html" {...register("color")} value="green" />
+              <label for="html" className='color-label'>GREEN</label>
+            </li>
+
+            <li className='desc-li storage-li color-li'>
+              <input type="radio" id="html" {...register("color")} value="purple" />
+              <label for="html" className='color-label'>PURPLE</label>
+            </li>
+
+            <li className='desc-li storage-li color-li'>
+              <input type="radio" id="html" {...register("color")} value="yellow" />
+              <label for="html" className='color-label'>YELLOW</label>
+            </li>
+          </ul>
+        </div>
+
+
+        <div className="buy-btn-box">
+          <button type="submit" value="submit" className="buy-btn">
+            BUY
+
+          </button>
+        </div>
+
+
+
+
+
+      </form>
+
+
+
+nav{
+  background-color: white;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+nav ul{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav li{
+  height: 50px;
+}
+nav a{
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+nav a:hover{
+  background-color: #f0f0f0;
+}
+nav li:first-child{
+  margin-right: auto;
+}
+.sidebar{
+  position: fixed;
+  top: 0; 
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sidebar li{
+  width: 100%;
+}
+.sidebar a{
+  width: 100%;
+}
+.menu-button{
+  display: none;
+}
+@media(max-width: 800px){
+  .hideOnMobile{
+    display: none;
+  }
+  .menu-button{
+    display: block;
+  }
+}
+@media(max-width: 400px){
+  .sidebar{
+    width: 100%;
+  }
+}
 
 
 
