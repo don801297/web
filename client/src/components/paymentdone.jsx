@@ -1,37 +1,84 @@
 import React from 'react'
 
-function Paymentdone() {
+function Upipayment() {
+
+    function countdown( elementName, minutes, seconds )
+    {
+        var element, endTime, hours, mins, msLeft, time;
+    
+        function twoDigits( n )
+        {
+            return (n <= 9 ? "0" + n : n);
+        }
+    
+        function updateTimer()
+        {
+            msLeft = endTime - (+new Date);
+            if ( msLeft < 1000 ) {
+                element.innerHTML = "Time is up!";
+            } else {
+                time = new Date( msLeft );
+                hours = time.getUTCHours();
+                mins = time.getUTCMinutes();
+                element.innerHTML = (hours ? hours + ':' + twoDigits( mins ) : mins) + ':' + twoDigits( time.getUTCSeconds() );
+                setTimeout( updateTimer, time.getUTCMilliseconds() + 500 );
+            }
+        }
+    
+        element = document.getElementById( elementName );
+        endTime = (+new Date) + 1000 * (60*minutes + seconds) + 500;
+        updateTimer();
+    }
+    
+    
+
+   
+
+
     return (
-        <div>
+        <div className='upi-body'>
+
+
+            <div className="upi-box">
+                <div className="upi-logo"><img src="./img/upi-logo.webp" alt="fail to load" className='upi-logo-img' />
+
+                    <span className='upi-span'>Payment</span></div>
+
+                <div className="sep-line"></div>
+                <img src="./img/upi-box-img.jpeg" alt="fail to load" class="upi-body-img" />
 
 
 
-            <div class="pay-container">
-                <div class="row justify-content-center">
-                    <div class="col-md-5">
-                        <div class="message-box _success">
-                            <i class="fa fa-check-circle" aria-hidden="true"></i>
-                            <img src="./img/pay-done.jpg" alt="fail to load" class="fa fa-check-circle pay-done" />
-                            <h2> Your Order was successfully Placed </h2>
+                <div className="upi-payment-note">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#000000"><path d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" /></svg>
 
-                            <p> Thank you for your Trust. we will <br />
-                                be in contact with more details shortly </p>
 
-                           
-                        </div>
-                    </div>
+                    <p className='upi-note-p1'>NOTE <br />
+                        Send Payment Done Screenshot ON Whatsapp For Order Information and Further Details
+                    </p>
+
                 </div>
 
-                <hr />
+                <div className="sep-line sep2"></div>
 
 
-             
+                <p className='upi-note-p2'>
+                    This page will automatically expire in 10 mins.
+                        
+                    </p>
 
-            </div>
+                    
+                    
+                    </div>
+                    
+                   
+            
 
-            <p className='pay-note'>NOTE <br /> Send Payment Done   Confirmation Screenshot On  Whatsapp For Forther Details</p>
+            
+
+
         </div>
     )
 }
 
-export default Paymentdone
+export default Upipayment
