@@ -58,6 +58,9 @@ const UserSchema = new mongoose.Schema({
     number:{
         type: String
     }, 
+    upi:{
+        type: String
+    }, 
 
 
 })
