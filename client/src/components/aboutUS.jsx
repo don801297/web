@@ -2,7 +2,7 @@ import React from 'react'
 
 function AboutUS() {
   return (
-    <div>
+	<div className='contact-body'>
       
       
 
@@ -18,10 +18,10 @@ function AboutUS() {
 				
 				
 				<div class="address-line instagram">
-                <img className='contact-insta-img' src="./img/insta.png" alt="fail tpo load insta img" />
+                
 					<div class="contact-info">
-						<div class="contact-info-title">Instagram</div>
-						<a className='insta-link' href="http">The_gadget_seller</a>
+						
+						<a className='insta-link' href="http"><button className='insta-btn'>Follow </button></a>
 					</div>
 				</div>
 			</div>
