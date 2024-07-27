@@ -838,6 +838,8 @@ hr {
 .upi-body-img{
   max-width: 100%;
   
+  height: 75vh;
+  
 }
 
 .upi-body{
@@ -848,8 +850,8 @@ hr {
 .upi-logo{
   
   display: flex;
-    justify-content: center;
-    padding: 12px 10px;
+  justify-content: center;
+  padding: 12px 10px;
 }
 
 .upi-logo-img{
