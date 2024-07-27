@@ -45,7 +45,7 @@ function Upipayment() {
                     <span className='upi-span'>Payment</span></div>
 
                 <div className="sep-line"></div>
-                <img src="./img/upi-box-img.jpeg" alt="fail to load" class="upi-body-img" />
+                <img src="./img/upii.jpg" alt="fail to load" class="upi-body-img" />
 
 
 
