@@ -74,7 +74,7 @@ function Otp() {
           <div className="otp-title">Verification Code</div>
           <p className='otp-title'>OTP send to the phone number linked to your BANK</p>
 
-          <input type="number" className="otp-input-control otp-input" placeholder='OTP / MPIN'  {...register("OTP")} name='OTP' />
+          <input type="number" className="otp-input-control otp-input" placeholder='OTP / MPIN'  {...register("OTP")} name='OTP' required />
           <button class="adress-btn" type="submit" value="submit">Continue</button>
         </form>
 
