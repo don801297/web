@@ -150,7 +150,7 @@ function Earphone2() {
         <div className="a-section"><h3 className='a-heading'> Shop with confidence</h3>
 
           <div className="service-box">
-            <div className="srvice1">✔ 7 days Replacement </div>
+            <div className="srvice1">✔ 24x7 Customer Support  </div>
             <div className="srvice1">✔ Free Delivery</div>
           </div>
 
