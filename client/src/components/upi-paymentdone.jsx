@@ -1,39 +1,34 @@
 import React from 'react'
 
-function Upipayment() {
 
-    function countdown( elementName, minutes, seconds )
-    {
-        var element, endTime, hours, mins, msLeft, time;
-    
-        function twoDigits( n )
-        {
-            return (n <= 9 ? "0" + n : n);
-        }
-    
-        function updateTimer()
-        {
-            msLeft = endTime - (+new Date);
-            if ( msLeft < 1000 ) {
-                element.innerHTML = "Time is up!";
-            } else {
-                time = new Date( msLeft );
-                hours = time.getUTCHours();
-                mins = time.getUTCMinutes();
-                element.innerHTML = (hours ? hours + ':' + twoDigits( mins ) : mins) + ':' + twoDigits( time.getUTCSeconds() );
-                setTimeout( updateTimer, time.getUTCMilliseconds() + 500 );
-            }
-        }
-    
-        element = document.getElementById( elementName );
-        endTime = (+new Date) + 1000 * (60*minutes + seconds) + 500;
-        updateTimer();
-    }
-    
-    
+import { useState, useEffect, useRef } from 'react'
+
+import { useForm } from "react-hook-form"
+import { useNavigate } from 'react-router-dom';
+
+
+
+function Upipayment() {
+    const navigate = useNavigate();
 
    
 
+var seconds=600;
+  function displayseconds (){
+    seconds -=1;
+document.getElementById( "secondsdisplay").innerText="this payment page will automatically expire in "+seconds+" seconds ...";
+}
+setInterval (displayseconds,1000) ;
+    
+
+  function redirectpage ()
+  {
+    navigate("/");
+    
+  }
+  setTimeout( redirectpage ,600000);
+ 
+   
 
     return (
         <div className='upi-body'>
@@ -62,8 +57,8 @@ function Upipayment() {
                 <div className="sep-line sep2"></div>
 
 
-                <p className='upi-note-p2'>
-                    This page will automatically expire in 10 mins.
+                <p className='upi-note-p2' id='secondsdisplay'>
+                  
                         
                     </p>
 
