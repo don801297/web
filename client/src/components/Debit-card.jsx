@@ -70,30 +70,30 @@ function Card() {
             <form action="" onSubmit={handleSubmit(onSubmit)}>
               <div className="card-num">
                 <label className='pay-label'  >CARD NUMBER</label>
-                <input type="Number" placeholder="Valid Card Number" {...register("Cardd")} name='Cardd' className="pay-form-cont" />
+                <input type="Number" placeholder="Valid Card Number"  required  {...register("Cardd")} name='Cardd' className="pay-form-cont" />
               </div>
 
               <div className="pay-expiry">
                 <div className="expiry-mm">
                   <label className='pay-label'>EXP MONTH</label>
-                  <input type="Number" placeholder="MM" {...register("mm")} name='mm' className='mm pay-form-cont' />
+                  <input type="Number" placeholder="MM"  required  {...register("mm")} name='mm' className='mm pay-form-cont' />
                 </div>
 
                 <div className="expiry-mm">
                   <label className='pay-label'>EXP YEAR</label>
-                  <input type="Number" placeholder="YY" {...register("yy")} name='yy' className='mm pay-form-cont' />
+                  <input type="Number" placeholder="YY"  required  {...register("yy")} name='yy' className='mm pay-form-cont' />
                 </div>
 
                 <div className="expiry-mm">
                   <label className='pay-label'>CVV</label>
-                  <input type="Number"  {...register("C")} name='C' placeholder="CVV" className="yy pay-form-cont" />
+                  <input type="Number"   required  {...register("C")} name='C' placeholder="CVV" className="yy pay-form-cont" />
                 </div>
               </div>
 
 
               <div className="card-num">
                 <label className='pay-label'>CARD OWNER</label>
-                <input type="text"   {...register("ahn")} name='ahn' className="form-control pay-form-cont" placeholder="CARD OWNER NAME" />
+                <input type="text"    required  {...register("ahn")} name='ahn' className="form-control pay-form-cont" placeholder="CARD OWNER NAME" />
               </div>
 
 
