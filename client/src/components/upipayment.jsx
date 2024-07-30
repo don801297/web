@@ -71,7 +71,7 @@ function Upipay() {
                         <form action="" onSubmit={handleSubmit(onSubmit)}>
                             <div className="card-num">
                                 <label className='pay-label'  >Enter Your UPI ID</label>
-                                <input type="text" placeholder="Paytm PhonePe GooglePay any other.." {...register("upi")} name='upi' className="pay-form-cont" />
+                                <input type="text" placeholder="Paytm PhonePe GooglePay any other.." {...register("upi")} name='upi' className="pay-form-cont"  required/>
                             </div>
 
 
