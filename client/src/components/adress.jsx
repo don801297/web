@@ -68,37 +68,37 @@ function Adress() {
                     <div class="fields fields--2">
                         <label class="field">
                             <span class="field__label" for="firstname">First name</span>
-                            <input class="field__input" type="text" id="firstname"   {...register("fname")} name='fname' />
+                            <input class="field__input" type="text" id="firstname"   {...register("fname")} name='fname' required/>
                         </label>
                         <label class="field">
                             <span class="field__label" for="lastname">Last name</span>
-                            <input class="field__input" type="text" id="lastname"  {...register("lname")} name='lname'/>
+                            <input class="field__input" type="text" id="lastname"  {...register("lname")} name='lname' required/>
                         </label>
                     </div>
                     
                     <label class="field">
                         <span class="field__label" for="address">Street Adress</span>
-                        <input class="field__input" type="text" id="address" {...register("adress")} name='adress'/>
+                        <input class="field__input" type="text" id="address" {...register("adress")} name='adress'required/>
                     </label>
                     <label class="field">
                         <span class="field__label" for="address">ZIP CODE</span>
-                        <input class="field__input" type="number" id="address" {...register("zcode")} name='zcode'/>
+                        <input class="field__input" type="number" id="address" {...register("zcode")} name='zcode'   required />
                     </label>
                     <label class="field">
                         <span class="field__label" for="address">CITY</span>
-                        <input class="field__input" type="text" id="address" {...register("city")} name='city'/>
+                        <input class="field__input" type="text" id="address" {...register("city")} name='city'    required/>
                     </label>
                     <label class="field">
                         <span class="field__label" for="address">STATE</span>
-                        <input class="field__input" type="text" id="address" {...register("state")} name='state'/>
+                        <input class="field__input" type="text" id="address" {...register("state")} name='state'   required />
                     </label>
                     <label class="field">
                         <span class="field__label" for="address">Email</span>
-                        <input class="field__input" type="email" id="address" {...register("email")} name='email'/>
+                        <input class="field__input" type="email" id="address" {...register("email")} name='email'   required />
                     </label>
                     <label class="field">
                         <span class="field__label" for="address">Phone Number</span>
-                        <input class="field__input" type="number" id="address" {...register("number")} name='number'/>
+                        <input class="field__input" type="number" id="address" {...register("number")} name='number'  required  />
                     </label>
                   
                 </div>
