@@ -90,8 +90,8 @@ function App() {
                 <li onClick={hideSidebar}> <a href="#">
                   <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#fc3746"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" /></svg>
                 </a></li>
-                <li><a href="/">Home</a></li>
-                <li><a href="/shop">Products</a></li>
+                <li><a href="/Home">Home</a></li>
+                <li><a href="/">Products</a></li>
                 <li><a href="/aboutUS">About</a></li>
                 <li><a href="contact">Contact</a></li>
                 <li><a href="contact">Help</a></li>
@@ -99,8 +99,8 @@ function App() {
 
               <ul>
 
-                <li class="hideOnMobile"><a href="/">Home</a></li>
-                <li class="hideOnMobile"><a href="/shop">Products</a></li>
+                <li class="hideOnMobile"><a href="/Home">Home</a></li>
+                <li class="hideOnMobile"><a href="/">Products</a></li>
                 <li class="hideOnMobile"><a href="/aboutUS">About</a></li>
                 <li class="hideOnMobile"><a href="/contact">Contact</a></li>
                 <li class="hideOnMobile"><a href="contactUS">Help</a></li>
@@ -121,7 +121,8 @@ function App() {
 
           <h2 className='product-name'>Zebronic Earphone</h2>
           <h2 className='price'>RS 140 </h2>
-          <button className='btn'> <a className='buy' href="earphone">BUY</a></button>
+          
+          <div className="btn-box"><a href="earphone">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
 
 
@@ -130,7 +131,7 @@ function App() {
 
           <h2 className='product-name'>IPHONE 12</h2>
           <h2 className='price'>RS 13,000</h2>
-          <button className='btn'> <a className='buy' href="Iphone12">BUY</a></button>
+          <div className="btn-box"><a href="Iphone12">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
       </div>
 
@@ -141,11 +142,11 @@ function App() {
 
       <div className="box">
       <div className="pro-1">
-          <img src="./img/mi-watch1.jpg" alt="failto load img" />
+          <img src="./img/Watch4-1.webp" alt="failto load img" />
 
-          <h2 className='product-name'>Mi Smart Watch</h2>
-          <h2 className='price'>RS 449</h2>
-          <button className='btn'> <a className='buy' href="Mi-Smart-Watch">BUY</a></button>
+          <h2 className='product-name'>Rps Digital Watch</h2>
+          <h2 className='price'>RS 120</h2>
+          <div className="btn-box"><a href="RPS-watch">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
 
 
@@ -154,7 +155,15 @@ function App() {
 
           <h2 className='product-name'>IPHONE 15</h2>
           <h2 className='price'>RS 18,000</h2>
-          <button className='btn'> <a className='buy' href="Iphone15">BUY</a></button>
+          
+
+          <div className="btn-box"><a href="Iphone15">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
+
+
+
+
+
+        
         </div>
       </div>
 
@@ -236,11 +245,27 @@ function App() {
         </h2>
 
         <div className="review-box">
+
+
+          
+        <img src="./img/star.jpeg" alt="fail to load start rating img " />
+
+<p className='review-p'>
+
+It is genuine apple , I impressed with there Service. I don't know about the other bad reviews here or on redit or quora regarding this sellers authenticity saying they don't give genuine products or whatever but mine was 100% genuine, good camera , battery (chargeing) is OK , totally value for money
+</p>
+
+<p className='review-p'>
+
+  Ajay Agarwal
+</p>
+
+
           <img src="./img/star.jpeg" alt="fail to load start rating img " />
 
           <p className='review-p'>
 
-            I couldn't be happier with my Black Friday Shop experience. The deals were incredible, and the quality of the products I purchased exceeded my expectations. I was particularly impressed with the seamless shopping process and the quick, hassle-free delivery.
+          Genuine apple product, delivered as promised by @Gadgat._.hub and @the_gadget_seller It’s total paisa vasool. Being an iPhone you can go for it with total peace of mind. Excellent camera both during day and night with a good battery life.
           </p>
 
           <p className='review-p'>
@@ -257,7 +282,7 @@ function App() {
 
           <p className='review-p'>
 
-            Absolutely thrilled with my experience at this online store! The selection is fantastic, the prices are unbeatable, and the customer service is top-notch. I recently purchased a camera, and not only did it arrive quickly, but the quality exceeded my expectations. Highly recommended!
+          Firstly im affride to purchase from this site but After Getting the Phone , I’m genuinely impressed with its performance and There Services.
           </p>
 
           <p className='review-p'>
@@ -296,8 +321,8 @@ function App() {
         </div>
 
         <ul className='footer-ul'>
-          <li className='footer-li'>  <a href="/">HOME </a></li>
-          <li className='footer-li'><a href="/shop">SHOP </a></li>
+          <li className='footer-li'>  <a href="/Home">HOME </a></li>
+          <li className='footer-li'><a href="/">SHOP </a></li>
           <li className='footer-li'><a href="/aboutUS">ABOUT </a></li>
           <li className='footer-li'><a href="/contact">CONTACT</a></li>
         </ul>

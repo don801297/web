@@ -64,17 +64,21 @@ import Miwatch1 from './other/watch1.jsx';
 import Headphone1 from './other/headphone1.jsx';
 import Earphone2 from './other/earphone2.jsx';
 import Iphone12mini from './iphone/iphone12mini.jsx';
+import Mainpayment from './components/main-payment-section.jsx';
+import Watch2 from './other/watch2.jsx';
+import Watch4 from './other/watch4.jsx';
+import Datacable1 from './other/datacable1.jsx';
 
 
 const router = createBrowserRouter([
 
   {
     path: "/",
-    element: <App />,
+    element: <Shop />,
   },
   {
-    path: "/shop",
-    element: <Shop />,
+    path: "/Home",
+    element: <App />,
   },
   {
     path: "/Iphone",
@@ -221,7 +225,10 @@ const router = createBrowserRouter([
     element: <Nothing2 />,
   },
 
- 
+  {
+    path: "/Payment-Methods",
+    element: <Mainpayment />,
+  },
 
   {
     path: "/Payment-section",
@@ -248,7 +255,18 @@ const router = createBrowserRouter([
     path: "Boult-Wired-Earphone",
     element: <Earphone2 />,
   },
- 
+  {
+    path: "Sunway-watch",
+    element: <Watch2 />,
+  },
+  {
+    path: "RPS-watch",
+    element: <Watch4 />,
+  },
+  {
+    path: "Ptron-datacable",
+    element: <Datacable1 />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

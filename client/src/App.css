@@ -170,7 +170,7 @@ button a{
 .review-box img{
   width: 56px;
   margin: 0px 20px;
-  margin-top: 45px;
+  margin-top: 10px;
 }
 
 .review-p{
@@ -517,6 +517,7 @@ hr {
 
 .contact-body{
   background-color: darkviolet;
+ height: 100vh;
   color: white;
 }
 
@@ -652,13 +653,15 @@ hr {
 
 .instagram{
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 
 .pay-cont{
   
   width: 94%;
-  border: 1px solid #ccc;
+ border: 1px solid #ccc;;
   margin: auto;
   margin-top: 12%;
   border-top-left-radius: 10px;
@@ -991,17 +994,24 @@ width: 100%;
   outline: 0;
   border: none;
   cursor: pointer;
-  padding: 0 24px;
+  padding: 0 20px;
   border-radius: 50px;
-  min-width: 160px;
+  width: 120px;
   height: 36px;
-  font-size: 18px;
+  font-size: 14px;
   background-color: #ffd814;
   font-weight: 500;
   color: #0f1111;
 
 }
 
+
+.btnn2{
+  margin: 16px 0px;
+  height: 30px;
+  width: 100px;
+  font-size: 12px;
+}
 
 
 
@@ -1136,8 +1146,57 @@ nav li:first-child{
   display: flex;
 }
 
+.pay-met-name{
+  text-align: center;
+  margin-bottom: -42px;
+  margin-top: 24px;
+}
+
+.pay-detailss{
+  text-align: center;
+  background-color: #f0f0f4;
+  border-radius: 10px;
+  padding: 8px 0px;
+  
+}
+
+.fa-instagram{
+  margin-left: 38px;
+  font-size: 40px;
+}
+
+
+
 /*
 
+
+
+	<div class="col-2">
+				<form>
+					<div class="form-container">
+						<h2>Send Message</h2>
+						<div class="form-row">
+							<label>Full Name</label>
+							<div>
+								<input type="text" class="form-field"/>
+							</div>
+						</div>
+						<div class="form-row">
+							<label>Email</label>
+							<div>
+								<input type="text"  class="form-field"/>
+							</div>
+						</div>
+						<div class="form-row">
+							<label>Type your message...</label>
+							<div>
+                            <input type="text" class="form-field"/>
+							</div>
+						</div>
+						<button type="send" class="adress-btn "  value="Send">Submit</button>
+					</div>
+				</form>
+			</div>
 
 
         <div className="a-section"><h3 className='a-heading'>Select Colour</h3><br />
