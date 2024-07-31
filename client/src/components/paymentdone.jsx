@@ -35,4 +35,3 @@ function Paymentdone() {
 }
 
 export default Paymentdone
-

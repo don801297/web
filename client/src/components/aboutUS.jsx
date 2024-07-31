@@ -18,42 +18,19 @@ function AboutUS() {
 				
 				
 				<div class="address-line instagram">
-                
+                <i class="fa-brands fa-instagram"></i>
 					<div class="contact-info">
+
+					
 						
 						<a className='insta-link' href="http"><button className='insta-btn'>Follow </button></a>
 					</div>
 				</div>
 			</div>
-			<div class="col-2">
-				<form>
-					<div class="form-container">
-						<h2>Send Message</h2>
-						<div class="form-row">
-							<label>Full Name</label>
-							<div>
-								<input type="text" class="form-field"/>
-							</div>
-						</div>
-						<div class="form-row">
-							<label>Email</label>
-							<div>
-								<input type="text"  class="form-field"/>
-							</div>
-						</div>
-						<div class="form-row">
-							<label>Type your message...</label>
-							<div>
-                            <input type="text" class="form-field"/>
-							</div>
-						</div>
-						<button type="send" class="adress-btn "  value="Send">Submit</button>
-					</div>
-				</form>
-			</div>
+		
 		</div>
 	</div>
-
+	
 
 
     </div>
