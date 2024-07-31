@@ -84,8 +84,8 @@ function Earphone1() {
                 <li onClick={hideSidebar}> <a href="#">
                   <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#fc3746"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" /></svg>
                 </a></li>
-                <li><a href="/">Home</a></li>
-                <li><a href="/shop">Products</a></li>
+                <li><a href="/Home">Home</a></li>
+                <li><a href="/">Products</a></li>
                 <li><a href="/aboutUS">About</a></li>
                 <li><a href="contact">Contact</a></li>
                 <li><a href="contact">Help</a></li>
@@ -93,8 +93,8 @@ function Earphone1() {
 
               <ul>
 
-                <li class="hideOnMobile"><a href="/">Home</a></li>
-                <li class="hideOnMobile"><a href="/shop">Products</a></li>
+                <li class="hideOnMobile"><a href="/Home">Home</a></li>
+                <li class="hideOnMobile"><a href="/">Products</a></li>
                 <li class="hideOnMobile"><a href="/aboutUS">About</a></li>
                 <li class="hideOnMobile"><a href="/contact">Contact</a></li>
                 <li class="hideOnMobile"><a href="contactUS">Help</a></li>
@@ -298,8 +298,8 @@ function Earphone1() {
   </div>
 
   <ul className='footer-ul'>
-    <li className='footer-li'>  <a href="/">HOME </a></li>
-    <li className='footer-li'><a href="/shop">SHOP </a></li>
+    <li className='footer-li'>  <a href="/Home">HOME </a></li>
+    <li className='footer-li'><a href="/">SHOP </a></li>
     <li className='footer-li'><a href="/aboutUS">ABOUT </a></li>
     <li className='footer-li'><a href="/contact">CONTACT</a></li>
   </ul>
