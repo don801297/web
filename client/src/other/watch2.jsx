@@ -118,10 +118,10 @@ function Watch2() {
                         <input type="radio" name="slide" id="img4" />
 
 
-                        <img src="./img/Watch3-1.webp" class="m1" alt="img1" checked></img>
-                        <img src="./img/Watch3-2.webp" class="m2" alt="img2" ></img>
-                        <img src="./img/Watch3-3.webp" class="m3" alt="img3" ></img>
-                        <img src="./img/Watch3-1.webp" class="m4" alt="img4" ></img>
+                        <img src="./img/watch3-1.webp" class="m1" alt="img1" checked></img>
+                        <img src="./img/watch3-2.webp" class="m2" alt="img2" ></img>
+                        <img src="./img/watch3-3.webp" class="m3" alt="img3" ></img>
+                        <img src="./img/watch3-1.webp" class="m4" alt="img4" ></img>
                     </div>
 
                     <div class="dots">
@@ -242,13 +242,13 @@ function Watch2() {
                 <div className="manufacture"><h3 className='manufacture-h'>Form the manufacturer</h3><br />
 
                     <div className="pro-bg-box">
-                        <img src="./img/Watch3-1.webp" alt="fail to load" />
+                        <img src="./img/watch3-1.webp" alt="fail to load" />
                     </div>
                     <div className="pro-bg-box">
-                        <img src="./img/Watch3-2.webp" alt="fail to load" />
+                        <img src="./img/watch3-2.webp" alt="fail to load" />
                     </div>
                     <div className="pro-bg-box">
-                        <img src="./img/Watch3-3.webp" alt="fail to load" />
+                        <img src="./img/watch3-3.webp" alt="fail to load" />
                     </div>
 
 
