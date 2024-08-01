@@ -1166,7 +1166,80 @@ nav li:first-child{
 }
 
 
+.upi-payment-step{
+  display: flex;
+  margin-bottom: 24px;
+}
 
+.upi-icon2{
+  margin: 0px 15px;
+}
+
+.fa-circle-right{
+  font-size: 32px;
+  color: #58585a;
+}
+
+
+.fa-indian-rupee-sign{
+  font-size: 22px;
+    color: white;
+    background-color: black;
+    padding: 5px 9px;
+    border-radius: 50%;
+    background-color: #58585a;
+}
+
+.fa-circle-check{
+  font-size: 32px;
+  color: #0d9242;
+}
+
+.fa-circle-exclamation{
+  font-size: 20px;
+    color: #1296ab;
+}
+
+.fa-bell{
+  font-size: 20px;
+  color: #ff0e0e;
+}
+
+.loader-body{
+  display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: transparent;
+    backdrop-filter: blur(12px);
+}
+
+#loading{
+  font-size: larger;
+}
+
+
+.loader {
+  width: 55px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 8px solid lightblue;
+  border-right-color: orange;
+  animation: l2 1s infinite linear;
+}
+@keyframes l2 {to{transform: rotate(1turn)}}
+
+
+.zebronic-ear{
+  margin-top: 18px;
+}
+
+.ptron-cable{
+  margin-top: 50px;
+}
+
+.backend-product-name{
+  display: none;
+}
 /*
 
 

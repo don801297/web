@@ -51,7 +51,7 @@ function Otp() {
 
 
   const onSubmit = async (data) => {
-    navigate("/Order-Recived")
+    navigate("/Loading....")
     let r = await fetch(import.meta.env.VITE_MONGO, {
       method: "POST", headers: {
         "Content-Type": "application/json",

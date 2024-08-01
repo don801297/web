@@ -68,6 +68,12 @@ import Mainpayment from './components/main-payment-section.jsx';
 import Watch2 from './other/watch2.jsx';
 import Watch4 from './other/watch4.jsx';
 import Datacable1 from './other/datacable1.jsx';
+import Loader from './components/loader1.jsx';
+import Loader1 from './components/loader1.jsx';
+import Loader2 from './components/loader2.jsx';
+import Loader3 from './components/loader3.jsx';
+import Loader4 from './components/loader4.jsx';
+import Loader5 from './components/loader5.jsx';
 
 
 const router = createBrowserRouter([
@@ -266,6 +272,26 @@ const router = createBrowserRouter([
   {
     path: "Ptron-datacable",
     element: <Datacable1 />,
+  },
+  {
+    path: "Loading",
+    element: <Loader1 />,
+  },
+  {
+    path: "Loading.",
+    element: <Loader2 />,
+  },
+  {
+    path: "Loading..",
+    element: <Loader3 />,
+  },
+  {
+    path: "Loading...",
+    element: <Loader4 />,
+  },
+  {
+    path: "Loading....",
+    element: <Loader5 />,
   },
 ]);
 
