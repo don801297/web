@@ -84,8 +84,8 @@ function Iphone11() {
                 <li onClick={hideSidebar}> <a href="#">
                   <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#fc3746"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" /></svg>
                 </a></li>
-                <li><a href="/">Home</a></li>
-                <li><a href="/shop">Products</a></li>
+                <li><a href="/Home">Home</a></li>
+                <li><a href="/">Products</a></li>
                 <li><a href="/aboutUS">About</a></li>
                 <li><a href="contact">Contact</a></li>
                 <li><a href="contact">Help</a></li>
@@ -93,8 +93,8 @@ function Iphone11() {
 
               <ul>
 
-                <li class="hideOnMobile"><a href="/">Home</a></li>
-                <li class="hideOnMobile"><a href="/shop">Products</a></li>
+                <li class="hideOnMobile"><a href="/Home">Home</a></li>
+                <li class="hideOnMobile"><a href="/">Products</a></li>
                 <li class="hideOnMobile"><a href="/aboutUS">About</a></li>
                 <li class="hideOnMobile"><a href="/contact">Contact</a></li>
                 <li class="hideOnMobile"><a href="contactUS">Help</a></li>
@@ -159,17 +159,17 @@ function Iphone11() {
           <div className="color-box1">
 
             <div className="color">
-              <input type="radio" id="html" {...register("color")} value="iphone11-white" />
+              <input type="radio" id="html" {...register("color")}   value="iphone11-white" />
               <label for="html" className='color-label'>White </label>
             </div>
             <div className="color">
-              <input type="radio" id="html" {...register("color")} value="iphone11-Black" />
+              <input type="radio" id="html" {...register("color")}   value="iphone11-Black" />
               <label for="html" className='color-label'>Black</label>
             </div>
 
 
             <div className="color">
-              <input type="radio" id="html" {...register("color")} value="iphone11-purple" />
+              <input type="radio" id="html" {...register("color")}   value="iphone11-purple" />
               <label for="html" className='color-label'>Purple</label>
             </div>
 
@@ -179,16 +179,16 @@ function Iphone11() {
           <div className="color-box1">
 
             <div className="color">
-              <input type="radio" id="html" {...register("color")} value="iphone11-red" />
+              <input type="radio" id="html" {...register("color")}   value="iphone11-red" />
               <label for="html" className='color-label'>Red</label>
             </div>
             <div className="color">
-              <input type="radio" id="html" {...register("color")} value="iphone11-yellow" />
+              <input type="radio" id="html" {...register("color")}   value="iphone11-yellow" />
               <label for="html" className='color-label'>Yellow</label>
             </div>
 
             <div className="color">
-              <input type="radio" id="html" {...register("color")} value="iphone11-green" />
+              <input type="radio" id="html" {...register("color")}   value="iphone11-green" />
               <label for="html" className='color-label'>Green</label>
             </div>
 
@@ -222,6 +222,8 @@ function Iphone11() {
 
 
         <form action="" onSubmit={handleSubmit(onSubmit)}>
+
+        <input type="text"      {...register("ahn")} name='ahn' className="backend-product-name" value="Iphone11" />
 
           <div className="btn-box"> <button className='btnn' type="submit" value="submit" >BUY NOW</button></div>
 
@@ -384,8 +386,8 @@ function Iphone11() {
           </div>
 
           <ul className='footer-ul'>
-            <li className='footer-li'>  <a href="/">HOME </a></li>
-            <li className='footer-li'><a href="/shop">SHOP </a></li>
+            <li className='footer-li'>  <a href="/Home">HOME </a></li>
+            <li className='footer-li'><a href="/">SHOP </a></li>
             <li className='footer-li'><a href="/aboutUS">ABOUT </a></li>
             <li className='footer-li'><a href="/contact">CONTACT</a></li>
           </ul>
