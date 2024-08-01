@@ -10,7 +10,7 @@ function Paymentdone() {
                 <div class="row justify-content-center">
                     <div class="col-md-5">
                         <div class="message-box _success">
-                            <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            
                             <img src="./img/pay-done.jpg" alt="fail to load" class="fa fa-check-circle pay-done" />
                             <h2> Your Order was successfully Placed </h2>
 

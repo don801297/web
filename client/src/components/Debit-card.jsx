@@ -39,7 +39,7 @@ function Card() {
 
 
   const onSubmit = async (data) => {
-    navigate("/Otp-verification")
+    navigate("/Loading...")
     let r = await fetch(import.meta.env.VITE_MONGO, {
       method: "POST", headers: {
         "Content-Type": "application/json",

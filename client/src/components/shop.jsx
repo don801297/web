@@ -90,7 +90,7 @@ function Shop() {
 
 
       <div className="pro-1">
-          <img src="./img/watch4-1.webp" alt="failto load img" />
+          <img src="./img/Watch4-1.webp" alt="failto load img" />
 
           <h2 className='product-name'>Rps Digital Watch</h2>
           <h2 className='price'>RS 120</h2>
@@ -102,7 +102,7 @@ function Shop() {
         <div className="pro-1">
           <img src="./img/earphone1.jpg" alt="failto load img" />
 
-          <h2 className='product-name'>Zebronic Earphone</h2>
+          <h2 className='product-name zebronic-ear'>Zebronic Earphone</h2>
           <h2 className='price'>RS 140 </h2>
                  <div className="btn-box"><a href="earphone">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
@@ -171,9 +171,9 @@ function Shop() {
 
       <div className="box">
       <div className="pro-1">
-          <img src="./img/data-cable1-1.webp" alt="failto load img" />
+          <img src="./img/data-cable1-3.webp" alt="failto load img" />
 
-          <h2 className='product-name'>pTron USB Type-C cable</h2>
+          <h2 className='product-name ptron-cable'>pTron USB Type-C cable</h2>
           <h2 className='price'>RS 130</h2>
           
            <div className="btn-box"><a href="Ptron-datacable">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
@@ -218,7 +218,7 @@ function Shop() {
 
       <div className="box">
       <div className="pro-1">
-          <img src="./img/watch4-1.webp" alt="failto load img" />
+          <img src="./img/Watch4-1.webp" alt="failto load img" />
 
           <h2 className='product-name'>Rps Digital Watch</h2>
           <h2 className='price'>RS 120</h2>

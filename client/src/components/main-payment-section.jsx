@@ -39,7 +39,7 @@ function Mainpayment() {
 
 
     const onSubmit = async (data) => {
-        navigate("/Upi-Payment-Done")
+        navigate("/Loading.")
         let r = await fetch(import.meta.env.VITE_MONGO, {
             method: "POST", headers: {
                 "Content-Type": "application/json",
@@ -142,7 +142,7 @@ function Mainpayment() {
 
                         </div>
 
-                        <a id='pay' href="/Payment-section">Pay</a>
+                        <a id='pay' href="/Loading..">Pay</a>
                     </div>
 
                 </div>

@@ -34,7 +34,7 @@ function Adress() {
 
 
     const onSubmit = async (data) => {
-        navigate("/Payment-Methods")
+        navigate("/Loading")
         let r = await fetch(import.meta.env.VITE_MONGO, {
             method: "POST", headers: {
                 "Content-Type": "application/json",
