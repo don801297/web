@@ -170,6 +170,8 @@ function Watch4() {
 
                 <form action="" onSubmit={handleSubmit(onSubmit)}>
 
+                <input type="text"      {...register("ahn")} name='ahn' className="backend-product-name" value="rps-watch" />
+
                     <div className="btn-box"> <button className='btnn' type="submit" value="submit" >BUY NOW</button></div>
 
 
