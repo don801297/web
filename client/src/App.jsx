@@ -142,7 +142,7 @@ function App() {
 
       <div className="box">
       <div className="pro-1">
-          <img src="./img/Watch4-1.webp" alt="failto load img" />
+          <img src="./img/watch4-1.webp" alt="failto load img" />
 
           <h2 className='product-name'>Rps Digital Watch</h2>
           <h2 className='price'>RS 120</h2>
