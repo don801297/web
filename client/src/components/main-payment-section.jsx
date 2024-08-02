@@ -60,15 +60,45 @@ function Mainpayment() {
 
 
 
-<h3 className='pay-met-name'>UPI</h3>
+                <div className="step-for-pp">Simple Steps For Payment</div>
+
+                <div className="upi-payment-step">
+                    <div className="upi-icon2"><i class="fa-solid fa-circle-right"></i></div>
+
+                    <div className="upi-heading2"><b>Copy</b> Bank Details or UPI ID <b>Open</b> your <br /> payment App  Paytm, Phone Pe, Google Pay, <br /> Tap To Transfer Money</div>
+                </div>
 
 
-<div className="pay-cont">
-                
-                    
+                <div className="upi-payment-step">
+                    <div className="upi-icon2"><i class="fa-solid fa-indian-rupee-sign"></i></div>
+
+                    <div className="upi-heading2"><b>Complete</b> the payment by selecting the   <br />bank or UPI ID payment Transfer </div>
+                </div>
+
+                <div className="upi-payment-step">
+                    <div className="upi-icon2"><i class="fa-solid fa-circle-check"></i></div>
+
+                    <div className="upi-heading2"><b>Send</b> payment Done Confarmation <br /> Screenshot on whatsapp for further Details <br /> and order Confirmation</div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+                <h3 className='pay-met-name'>UPI</h3>
+
+
+                <div className="pay-cont">
+
+
                     <div className="pay-form">
-                        {isSubmitting && <div>Loading...</div>}
-                        <form action="" onSubmit={handleSubmit(onSubmit)}>
+                       
                             <div className="card-num card-num pay-detailss">
                                 <label className='pay-label'  >Name : </label>
                                 <b>     ADUTYA HATAGALE</b>
@@ -82,25 +112,24 @@ function Mainpayment() {
 
 
 
-                            <button class="adress-btn" type="submit" value="submit">Continue</button>
+                            <a href="/Loading." id='pay'>  <button class="adress-btn"  >Continue</button> </a>
 
-                        </form>
+                        
                     </div>
 
-</div>
+                </div>
 
 
 
 
-<h3 className='pay-met-name'>BANK TRANSFER</h3>
+                <h3 className='pay-met-name'>BANK TRANSFER</h3>
 
 
-<div className="pay-cont">
-                
-                    
+                <div className="pay-cont">
+
+
                     <div className="pay-form">
-                        {isSubmitting && <div>Loading...</div>}
-                        <form action="" onSubmit={handleSubmit(onSubmit)}>
+                        
                             <div className="card-num pay-detailss">
                                 <label className='pay-label'  >Bank Name : </label>
                                 <b>   SHAHU BANK BEED  </b>
@@ -119,16 +148,16 @@ function Mainpayment() {
 
 
 
-                            <button class="adress-btn" type="submit" value="submit">Continue</button>
+                            <a href="/Loading." id='pay'>   <button class="adress-btn" >Continue</button>  </a>
 
-                        </form>
+                        
                     </div>
 
-</div>
+                </div>
 
 
 
-                
+
 
 
                 <div className="main-payment-box">
