@@ -1240,6 +1240,13 @@ nav li:first-child{
 .backend-product-name{
   display: none;
 }
+
+.step-for-pp{
+  font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    margin: 25px 0px;
+}
 /*
 
 
