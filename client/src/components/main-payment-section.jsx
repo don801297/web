@@ -101,10 +101,10 @@ function Mainpayment() {
                        
                             <div className="card-num card-num pay-detailss">
                                 <label className='pay-label'  >Name : </label>
-                                <b>     ADUTYA HATAGALE</b>
+                                <b>     TUSHAR BAJRANG</b>
                                 <br />
                                 <label className='pay-label'  >UPI ID :</label>
-                                <b>     Jhkj86537@oksbi</b>
+                                <b>     tusharchoudhari251@okaxis </b>
                             </div>
 
 
@@ -132,15 +132,15 @@ function Mainpayment() {
                         
                             <div className="card-num pay-detailss">
                                 <label className='pay-label'  >Bank Name : </label>
-                                <b>   SHAHU BANK BEED  </b>
+                                <b>   FINCARE SMALL FINANCE BANK  </b>
                                 <br />
                                 <label className='pay-label'  >A/C No :</label>
-                                <b>     1234567435790574</b> <br />
+                                <b>     23100015184707 </b> <br />
                                 <label className='pay-label'  >Acc. Name : </label>
-                                <b>     ADUTYA HATAGALE</b>
+                                <b>     Tushar Bajrang</b>
                                 <br />
                                 <label className='pay-label'  >IFSC Code :</label>
-                                <b>     CRUB0000015</b>
+                                <b>     FSFB0000001 </b>
                             </div>
 
 
