@@ -229,7 +229,7 @@ function Shop() {
           <img src="./img/i15-pro-1.png" alt="failto load img" />
 
           <h2 className='product-name'>IPHONE 15 PRO MAX</h2>
-          <h2 className='price'>RS 25,000</h2>
+          <h2 className='price'>RS 18,000</h2>
     <div className="btn-box"><a href="Iphone15-pro-max">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
       </div>
