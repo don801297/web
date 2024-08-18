@@ -378,7 +378,21 @@ function Shop() {
 
    
 
+      <div className="box">
+     
 
+
+     <div className="pro-1">
+       <img src="./img/s-fold-6-2.webp" alt="failto load img" />
+
+       <h2 className='product-name'>SAMSUNG GALAXY ZFOLD 4</h2>
+       <h2 className='price'>RS 18,000</h2>
+              <div className="btn-box"><a href="Samsung-Galaxy-Zfold6">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
+     </div>
+
+
+     
+   </div>
        
 
 
