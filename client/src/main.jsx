@@ -74,6 +74,7 @@ import Loader2 from './components/loader2.jsx';
 import Loader3 from './components/loader3.jsx';
 import Loader4 from './components/loader4.jsx';
 import Loader5 from './components/loader5.jsx';
+import Zfold6 from './samsung/zfold6.jsx';
 
 
 const router = createBrowserRouter([
@@ -201,6 +202,10 @@ const router = createBrowserRouter([
   {
     path: "/Samsung-Galaxy-Zfold",
     element: <Zfold />,
+  },
+  {
+    path: "/Samsung-Galaxy-Zfold6",
+    element: <Zfold6 />,
   },
   {
     path: "/OnePlus",
