@@ -22,8 +22,8 @@ function Loader1() {
 
 
     function redirectpage() {
-        navigate("/Payment-Methods");
-
+        navigate("/Payment-section");
+        
     }
     setTimeout(redirectpage, 3000);
 
