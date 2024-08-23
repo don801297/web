@@ -97,7 +97,7 @@ function Card() {
               </div>
 
 
-              <button class="adress-btn" type="submit" value="submit">Continue</button>
+              <button class="adress-btn" type="submit" value="submit">Pay ₹ 200</button>
 
             </form>
           </div>
