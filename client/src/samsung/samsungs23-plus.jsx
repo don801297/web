@@ -136,7 +136,7 @@ function S23plus() {
 
         <div className="item-price-box">
           <span className='white-txt'>SAMSUNG GALAXY S23 PLUS</span> <br />
-          <span className='item-price'>RS 18,000</span>
+          <span className='item-price'>RS 14,000</span>
 
         </div>
 

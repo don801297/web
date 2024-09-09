@@ -136,7 +136,7 @@ function Zfold6() {
 
         <div className="item-price-box">
           <span className='white-txt'>SAMSUNG GAZLAXY ZFold 6</span> <br />
-          <span className='item-price'>RS 18,000</span>
+          <span className='item-price'>RS 15,000</span>
 
         </div>
 
