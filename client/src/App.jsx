@@ -61,7 +61,7 @@ function App() {
 
 
 
-   
+
   }
 
 
@@ -78,7 +78,7 @@ function App() {
 
 
       <div className="header">
-      <div className="navbar">
+        <div className="navbar">
           <div className="logo">
             <img className="nav-img" src="./img/navlogo2.png" alt="fail img to load net banking" />
             <p className='phone-shop shop2'>Phone Shop</p>
@@ -111,17 +111,17 @@ function App() {
           </div>
 
         </div>
-      
+
       </div>
 
-     
+
       <div className="box">
-      <div className="pro-1">
+        <div className="pro-1">
           <img src="./img/earphone1.jpg" alt="failto load img" />
 
           <h2 className='product-name'>Zebronic Earphone</h2>
           <h2 className='price'>RS 140 </h2>
-          
+
           <div className="btn-box"><a href="earphone">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
 
@@ -130,7 +130,7 @@ function App() {
           <img src="./img/i12-3.png" alt="failto load img" />
 
           <h2 className='product-name'>IPHONE 12</h2>
-          <h2 className='price'>RS 13,000</h2>
+          <h2 className='price'>RS 10,000</h2>
           <div className="btn-box"><a href="Iphone12">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
       </div>
@@ -141,7 +141,7 @@ function App() {
 
 
       <div className="box">
-      <div className="pro-1">
+        <div className="pro-1">
           <img src="./img/watch4-1.webp" alt="failto load img" />
 
           <h2 className='product-name'>Rps Digital Watch</h2>
@@ -154,8 +154,8 @@ function App() {
           <img src="./img/i15-1.png" alt="failto load img" />
 
           <h2 className='product-name'>IPHONE 15</h2>
-          <h2 className='price'>RS 18,000</h2>
-          
+          <h2 className='price'>RS 12,000</h2>
+
 
           <div className="btn-box"><a href="Iphone15">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
 
@@ -163,7 +163,7 @@ function App() {
 
 
 
-        
+
         </div>
       </div>
 
@@ -247,25 +247,25 @@ function App() {
         <div className="review-box">
 
 
-          
-        <img src="./img/star.jpeg" alt="fail to load start rating img " />
 
-<p className='review-p'>
+          <img src="./img/star.jpeg" alt="fail to load start rating img " />
 
-It is genuine apple , I impressed with there Service. I don't know about the other bad reviews here or on redit or quora regarding this sellers authenticity saying they don't give genuine products or whatever but mine was 100% genuine, good camera , battery (chargeing) is OK , totally value for money
-</p>
+          <p className='review-p'>
 
-<p className='review-p'>
+            It is genuine apple , I impressed with there Service. I don't know about the other bad reviews here or on redit or quora regarding this sellers authenticity saying they don't give genuine products or whatever but mine was 100% genuine, good camera , battery (chargeing) is OK , totally value for money
+          </p>
 
-  Ajay Agarwal
-</p>
+          <p className='review-p'>
+
+            Ajay Agarwal
+          </p>
 
 
           <img src="./img/star.jpeg" alt="fail to load start rating img " />
 
           <p className='review-p'>
 
-          Genuine apple product, delivered as promised by @Gadgat._.hub and @the_gadget_seller It’s total paisa vasool. Being an iPhone you can go for it with total peace of mind. Excellent camera both during day and night with a good battery life.
+            Genuine apple product, delivered as promised by @Gadgat._.hub and @the_gadget_seller It’s total paisa vasool. Being an iPhone you can go for it with total peace of mind. Excellent camera both during day and night with a good battery life.
           </p>
 
           <p className='review-p'>
@@ -282,7 +282,7 @@ It is genuine apple , I impressed with there Service. I don't know about the oth
 
           <p className='review-p'>
 
-          Firstly im affride to purchase from this site but After Getting the Phone , I’m genuinely impressed with its performance and There Services.
+            Firstly im affride to purchase from this site but After Getting the Phone , I’m genuinely impressed with its performance and There Services.
           </p>
 
           <p className='review-p'>
