@@ -136,7 +136,7 @@ function Oneplus11R() {
 
         <div className="item-price-box">
           <span className='white-txt'>ONEPLUS 11R</span> <br />
-          <span className='item-price'>RS 10,000</span>
+          <span className='item-price'>RS 13,000</span>
 
         </div>
 
