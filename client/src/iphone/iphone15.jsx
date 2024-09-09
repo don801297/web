@@ -136,7 +136,7 @@ function Iphone15() {
 
         <div className="item-price-box">
           <span className='white-txt'>APPLE IPHONE 15</span> <br />
-          <span className='item-price'>RS 18,000</span>
+          <span className='item-price'>RS 12,000</span>
 
         </div>
 
