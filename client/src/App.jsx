@@ -117,12 +117,12 @@ function App() {
 
       <div className="box">
         <div className="pro-1">
-          <img src="./img/earphone1.jpg" alt="failto load img" />
+          <img className='i16-pro-sec' src="./img/i16-1.png" alt="failto load img" />
 
-          <h2 className='product-name'>Zebronic Earphone</h2>
-          <h2 className='price'>RS 140 </h2>
+          <h2 className='product-name'>IPHONE 16</h2>
+          <h2 className='price'>RS 16,000 </h2>
 
-          <div className="btn-box"><a href="earphone">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
+          <div className="btn-box"><a href="/Iphone16">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
 
 
@@ -142,11 +142,11 @@ function App() {
 
       <div className="box">
         <div className="pro-1">
-          <img src="./img/watch4-1.webp" alt="failto load img" />
+          <img className='i16-pro-sec' src="./img/i16-pro-1.png" alt="failto load img" />
 
-          <h2 className='product-name'>Rps Digital Watch</h2>
-          <h2 className='price'>RS 120</h2>
-          <div className="btn-box"><a href="RPS-watch">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
+          <h2 className='product-name'>IPHONE 16 PRO</h2>
+          <h2 className='price'>RS 20,000</h2>
+          <div className="btn-box"><a href= "/Iphone16-pro" >   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
 
 
