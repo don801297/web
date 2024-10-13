@@ -75,6 +75,10 @@ import Loader3 from './components/loader3.jsx';
 import Loader4 from './components/loader4.jsx';
 import Loader5 from './components/loader5.jsx';
 import Zfold6 from './samsung/zfold6.jsx';
+import Iphone16 from './iphone/iphone16.jsx';
+import Iphone16plus from './iphone/iphone16plus.jsx';
+import Iphone16pro from './iphone/iphone16pro.jsx';
+import Iphone16promax from './iphone/iphone16promax.jsx';
 
 
 const router = createBrowserRouter([
@@ -154,6 +158,22 @@ const router = createBrowserRouter([
   {
     path: "/Iphone15-pro-max",
     element: <Iphone15promax />,
+  },
+  {
+    path: "/Iphone16",
+    element: <Iphone16 />,
+  },
+  {
+    path: "/Iphone16plus",
+    element: <Iphone16plus />,
+  },
+  {
+    path: "/Iphone16-pro",
+    element: <Iphone16pro />,
+  },
+  {
+    path: "/Iphone16-pro-max",
+    element: <Iphone16promax />,
   },
   {
     path: "/adress",
