@@ -66,7 +66,7 @@ function Shop() {
 
           <h2 className='product-name name2'>IPHONE 11</h2>
           <h2 className='price p2'>RS 9,500</h2>
-          
+
           <div className="btn-box"><a href="Iphone11">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
 
@@ -76,7 +76,7 @@ function Shop() {
 
           <h2 className='product-name'>IPHONE 12</h2>
           <h2 className='price'>RS 10,000</h2>
-                              <div className="btn-box"><a href="Iphone12">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
+          <div className="btn-box"><a href="Iphone12">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
       </div>
 
@@ -89,23 +89,27 @@ function Shop() {
 
 
 
-      <div className="pro-1">
-          <img src="./img/watch4-1.webp" alt="failto load img" />
 
-          <h2 className='product-name'>Rps Digital Watch</h2>
-          <h2 className='price'>RS 120</h2>
-          
-         <div className="btn-box"><a href="RPS-watch">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
+        <div className="pro-1">
+          <img className='i16-pro-sec' src="./img/i16-3.png" alt="failto load img" />
+
+          <h2 className='product-name'>IPHONE 16</h2>
+          <h2 className='price'>RS 16,000 </h2>
+
+          <div className="btn-box"><a href="/Iphone16">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
 
 
         <div className="pro-1">
-          <img src="./img/earphone1.jpg" alt="failto load img" />
+          <img className='i16-pro-sec' src="./img/i16-pro-1.png" alt="failto load img" />
 
-          <h2 className='product-name zebronic-ear'>Zebronic Earphone</h2>
-          <h2 className='price'>RS 140 </h2>
-                 <div className="btn-box"><a href="earphone">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
+          <h2 className='product-name'>IPHONE 16 PRO</h2>
+          <h2 className='price'>RS 20,000</h2>
+          <div className="btn-box"><a href="/Iphone16-pro" >   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
+
+
+
 
 
 
@@ -124,7 +128,7 @@ function Shop() {
 
           <h2 className='product-name'>IPHONE 15</h2>
           <h2 className='price'>RS 12,000</h2>
-         <div className="btn-box"><a href="Iphone15">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
+          <div className="btn-box"><a href="Iphone15">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
 
         <div className="pro-1">
@@ -132,7 +136,7 @@ function Shop() {
 
           <h2 className='product-name'>IPHONE 13 MINI</h2>
           <h2 className='price'>RS 12,000</h2>
-          
+
           <div className="btn-box"><a href="Iphone13-mini">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
       </div>
@@ -148,7 +152,7 @@ function Shop() {
 
           <h2 className='product-name'>IPHONE 12 mini</h2>
           <h2 className='price'>RS 10,000</h2>
-          
+
           <div className="btn-box"><a href="Iphone12-mini">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
 
@@ -159,36 +163,37 @@ function Shop() {
 
           <h2 className='product-name'>IPHONE 15 PLUS</h2>
           <h2 className='price'>RS 13,000</h2>
-          
+
           <div className="btn-box"><a href="Iphone15-plus">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
 
-       
+
       </div>
 
 
 
 
       <div className="box">
-      <div className="pro-1">
-          <img src="./img/data-cable1-3.webp" alt="failto load img" />
 
-          <h2 className='product-name ptron-cable'>pTron USB Type-C cable</h2>
-          <h2 className='price'>RS 130</h2>
-          
-           <div className="btn-box"><a href="Ptron-datacable">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
+        <div className="pro-1">
+          <img className='i16-pro-sec' src="./img/i16-pro-2.png" alt="failto load img" />
+
+          <h2 className='product-name'>IPHONE 16 PRO MAX</h2>
+          <h2 className='price'>RS 22,000</h2>
+
+          <div className="btn-box"><a href="/Iphone16-pro-max">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
 
 
-       
 
 
         <div className="pro-1">
-          <img src="./img/watch3-1.webp" alt="failto load img" />
+          <img className='i16-pro-sec' src="./img/i16-1.png" alt="failto load img" />
 
-          <h2 className='product-name'>Sunway Digital Watch</h2>
-          <h2 className='price'>RS 130</h2>
-                <div className="btn-box"><a href="Sunway-watch">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
+          <h2 className='product-name'>Apple IPHONE 16 PLUS</h2>
+          <h2 className='price'>RS 18,000</h2>
+
+          <div className="btn-box"><a href="/Iphone16plus">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
 
 
@@ -201,7 +206,7 @@ function Shop() {
 
           <h2 className='product-name'>IPHONE 14 PRO</h2>
           <h2 className='price'>RS 13,000</h2>
-          
+
           <div className="btn-box"><a href="Iphone14-pro">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
 
@@ -210,7 +215,7 @@ function Shop() {
 
           <h2 className='product-name'>IPHONE 15 PRO</h2>
           <h2 className='price'>RS 14,000</h2>
-          
+
           <div className="btn-box"><a href="Iphone15-pro">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
       </div>
@@ -218,11 +223,12 @@ function Shop() {
 
       <div className="box">
       <div className="pro-1">
-          <img src="./img/watch4-1.webp" alt="failto load img" />
+          <img className='i16-pro-sec' src="./img/i16-pro-3.png" alt="failto load img" />
 
-          <h2 className='product-name'>Rps Digital Watch</h2>
-          <h2 className='price'>RS 120</h2>
-         <div className="btn-box"><a href="RPS-watch">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
+          <h2 className='product-name'>IPHONE 16 PRO MAX</h2>
+          <h2 className='price'>RS 22,000</h2>
+
+          <div className="btn-box"><a href="/Iphone16-pro-max">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
 
         <div className="pro-1">
@@ -230,7 +236,7 @@ function Shop() {
 
           <h2 className='product-name'>IPHONE 15 PRO MAX</h2>
           <h2 className='price'>RS 16,000</h2>
-    <div className="btn-box"><a href="Iphone15-pro-max">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
+          <div className="btn-box"><a href="Iphone15-pro-max">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
       </div>
 
@@ -243,7 +249,7 @@ function Shop() {
 
           <h2 className='product-name name2'>SAMSUNG GALAXY S23 ULTRA</h2>
           <h2 className='price p2'>RS 15,000</h2>
-          
+
           <div className="btn-box"><a href="Samsung-Galaxy-S23-ULTRA">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
 
@@ -253,7 +259,7 @@ function Shop() {
 
           <h2 className='product-name name2'>SAMSUNG GALAXY S23 PLUS</h2>
           <h2 className='price p2'>RS 14,000</h2>
-          
+
           <div className="btn-box"><a href="Samsung-Galaxy-S23-Plus">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
       </div>
@@ -266,7 +272,7 @@ function Shop() {
 
           <h2 className='product-name name2'>SAMSUNG GALAXY ZFLIP</h2>
           <h2 className='price p2'>RS 15,000</h2>
-                <div className="btn-box"><a href="Samsung-Galaxy-zflip">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
+          <div className="btn-box"><a href="Samsung-Galaxy-zflip">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
 
 
@@ -275,7 +281,7 @@ function Shop() {
 
           <h2 className='product-name name2'>SAMSUNG GALAXY ZFOLD 4</h2>
           <h2 className='price p2'>RS 16,000</h2>
-                <div className="btn-box"><a href="Samsung-Galaxy-zfold">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
+          <div className="btn-box"><a href="Samsung-Galaxy-zfold">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
 
       </div>
@@ -290,7 +296,7 @@ function Shop() {
 
           <h2 className='product-name name2'>ONEPLUS 10T</h2>
           <h2 className='price p2'>RS 12,000</h2>
-          
+
           <div className="btn-box"><a href="OnePlus-10T">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
 
@@ -300,7 +306,7 @@ function Shop() {
 
           <h2 className='product-name'>ONEPLUS 11</h2>
           <h2 className='price'>RS 13,000</h2>
-          
+
           <div className="btn-box"><a href="OnePlus-11">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
       </div>
@@ -312,7 +318,7 @@ function Shop() {
 
           <h2 className='product-name'>ONEPLUS 11R</h2>
           <h2 className='price'>RS 13,000</h2>
-          
+
           <div className="btn-box"><a href="OnePlus-11R">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
 
@@ -321,7 +327,7 @@ function Shop() {
 
           <h2 className='product-name'>ONEPLUS 12</h2>
           <h2 className='price'>RS 14,000</h2>
-          
+
           <div className="btn-box"><a href="OnePlus-12">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
       </div>
@@ -337,7 +343,7 @@ function Shop() {
 
           <h2 className='product-name name2'>NOTHING PHONE 1</h2>
           <h2 className='price p2'>RS 9,000</h2>
-          
+
           <div className="btn-box"><a href="Nothing-1">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
 
@@ -347,22 +353,23 @@ function Shop() {
 
           <h2 className='product-name name2'>NOTHING PHONE 2</h2>
           <h2 className='price p2'>RS 10,000</h2>
-          
+
           <div className="btn-box"><a href="Nothing-2">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
       </div>
 
 
       <div className="box">
-     
 
 
-        <div className="pro-1">
-          <img src="./img/mi-watch1.jpg" alt="failto load img" />
 
-          <h2 className='product-name'>Mi Smart Watch</h2>
-          <h2 className='price'>RS 449</h2>
-                 <div className="btn-box"><a href="Mi-Smart-Watch">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
+      <div className="pro-1">
+          <img className='i16-pro-sec' src="./img/i16-2.png" alt="failto load img" />
+
+          <h2 className='product-name'>Apple IPHONE 16 PLUS</h2>
+          <h2 className='price'>RS 18,000</h2>
+
+          <div className="btn-box"><a href="/Iphone16plus">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
 
 
@@ -371,33 +378,33 @@ function Shop() {
 
           <h2 className='product-name'>IPHONE 13 PRO MAX</h2>
           <h2 className='price'>RS 14,000</h2>
-        
+
           <div className="btn-box"><a href="Iphone13-pro-max">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
         </div>
       </div>
 
-   
+
 
       <div className="box">
-     
-
-
-     <div className="pro-1">
-       <img src="./img/s-fold-6-2.webp" alt="failto load img" />
-
-       <h2 className='product-name'>SAMSUNG GALAXY ZFOLD 4</h2>
-       <h2 className='price'>RS 15,000</h2>
-              <div className="btn-box"><a href="Samsung-Galaxy-Zfold6">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
-     </div>
-
-
-     
-   </div>
-       
 
 
 
-      
+        <div className="pro-1">
+          <img src="./img/s-fold-6-2.webp" alt="failto load img" />
+
+          <h2 className='product-name'>SAMSUNG GALAXY ZFOLD 4</h2>
+          <h2 className='price'>RS 15,000</h2>
+          <div className="btn-box"><a href="Samsung-Galaxy-Zfold6">   <button className='btnn btnn2' type="submit" value="submit" >BUY NOW</button>  </a></div>
+        </div>
+
+
+
+      </div>
+
+
+
+
+
 
       <div className="seprator"></div>
 
