@@ -28,7 +28,7 @@ function Contact() {
 				<i class="fa-brands fa-instagram"></i>
 					<div class="contact-info">
 						<div class="contact-info-title">Instagram ID</div>
-						<div>@Gadgat._.hub <br /> @The_Gadget_Seller</div>
+						<div> @The_Gadget_Seller</div>
 					</div>
 				</div>
 				<div class="address-line">
@@ -38,6 +38,36 @@ function Contact() {
 						<div>PhoneShope@gmail.com</div> 
 					</div>
 				</div>
+
+
+				<div class="col-2">
+				<form>
+					<div class="form-container">
+						<h2>Send Message</h2>
+						<div class="form-row">
+							<label>Full Name</label>
+							<div>
+								<input type="text" class="form-field"/>
+							</div>
+						</div>
+						<div class="form-row">
+							<label>Email</label>
+							<div>
+								<input type="text"  class="form-field"/>
+							</div>
+						</div>
+						<div class="form-row">
+							<label>Type your message...</label>
+							<div>
+                            <input type="text" class="form-field"/>
+							</div>
+						</div>
+						<button type="send" class="adress-btn "  value="Send">Submit</button>
+					</div>
+				</form>
+			</div>
+
+
 			</div>
 			
 		</div>
